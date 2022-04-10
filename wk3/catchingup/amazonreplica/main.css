@@ -1,0 +1,57 @@
+a {
+    color: #004c8f
+}
+
+#form-container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    /* padding: 20px; */
+}
+
+#login {
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
+
+#login:hover {
+    border-color: #a88734 #9c7e31 #846a29;
+    background: linear-gradient(to bottom, #f5d78e, #eeb933);
+}
+
+#bottom-content-container p.background {
+    position: relative;
+    z-index: 1;
+}
+
+#bottom-content-container p {
+    font-size: 80%;
+    color: gray;
+}
+
+/* #bottom-content-container p #line { */
+#bottom-content-container p.background:before {
+    border-top: 2px solid #dfdfdf;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#bottom-content-container span {
+    background: #fff;
+    padding: 0 15px;
+}
+
+#customer-button-container button {
+    background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+    color: #111;
+}
+
+#customer-button-container button:hover {
+    background: linear-gradient(to bottom, #e7eaf0, #d9dce1);
+}
+

@@ -1,0 +1,53 @@
+from ast import ImportFrom
+
+
+
+import random
+def func():
+from this import d
+from tkinter import Variable
+from unittest.loader import _SuiteClass
+
+
+class card_deck:
+
+    #class attribute
+    object='card'
+
+    
+
+    #card values
+
+    #number cards
+    values_nc=(2,3,4,5,6,7,8,9,10)
+
+    #face cards
+    values_fc= 10
+
+    #ace cards
+    value_ace=(1,11)
+
+    #all card values
+    card_values=values_nc,values_fc,value_ace
+
+   # suite options
+    suites='diamonds','hearts','spades','clubs'
+
+    #instance
+
+    dp1= random.choice(values_nc), random.choice(suites)
+    dp2= random.choice(value_ace), random.choice(suites)
+
+    def _init_(self,dp1,dp2):
+        self.dp1=dp1
+        self.dp2=dp2
+
+print("Welcome to BLACKJACK")
+player_name=input('enter your name to begin  ')
+
+print("the dealer has given you your cards")
+print (card_deck.dp1,card_deck.dp2)
+
+ 
+
+    
