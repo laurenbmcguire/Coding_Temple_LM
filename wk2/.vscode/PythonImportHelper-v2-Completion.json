@@ -1,0 +1,277 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "category",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "category",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "d1.calculator",
+        "description": "d1.calculator",
+        "peekOfCode": "def add(x,y):\n    return x + y\ndef sub(x,y):\n    return x - y\ndef mult(x,y):\n    return x * y\ndef divide(x,y):\n    return x / y\nwhile True:\n    options = ['1','2','3','4']",
+        "detail": "d1.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "sub",
+        "kind": 2,
+        "importPath": "d1.calculator",
+        "description": "d1.calculator",
+        "peekOfCode": "def sub(x,y):\n    return x - y\ndef mult(x,y):\n    return x * y\ndef divide(x,y):\n    return x / y\nwhile True:\n    options = ['1','2','3','4']\n    choice = input(\"Please enter the number of the operation you wish to perform:\\n 1. Addition\\n 2. Subtraction\\n 3. Multiplication\\n 4. Division\\n \")\n    if choice in options:",
+        "detail": "d1.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "mult",
+        "kind": 2,
+        "importPath": "d1.calculator",
+        "description": "d1.calculator",
+        "peekOfCode": "def mult(x,y):\n    return x * y\ndef divide(x,y):\n    return x / y\nwhile True:\n    options = ['1','2','3','4']\n    choice = input(\"Please enter the number of the operation you wish to perform:\\n 1. Addition\\n 2. Subtraction\\n 3. Multiplication\\n 4. Division\\n \")\n    if choice in options:\n        num1 = float(input(\"Please enter your first number: \"))\n        num2 = float(input(\"Please enter your second number: \"))",
+        "detail": "d1.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "d1.calculator",
+        "description": "d1.calculator",
+        "peekOfCode": "def divide(x,y):\n    return x / y\nwhile True:\n    options = ['1','2','3','4']\n    choice = input(\"Please enter the number of the operation you wish to perform:\\n 1. Addition\\n 2. Subtraction\\n 3. Multiplication\\n 4. Division\\n \")\n    if choice in options:\n        num1 = float(input(\"Please enter your first number: \"))\n        num2 = float(input(\"Please enter your second number: \"))\n    #print(f\"{num1},{num2}\")\n        print(\"Your answer is: \")",
+        "detail": "d1.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "rows",
+        "kind": 5,
+        "importPath": "d1.pyramid",
+        "description": "d1.pyramid",
+        "peekOfCode": "rows = int(input(\"Enter number of rows: \"))\nk = 0\nfor i in range(1, rows+1):\n    for space in range(1, (rows-i)+1):\n        print(end=\"  \")\n    while k!=(2*i-1):\n        print(\"* \", end=\"\")\n        k += 1\n    k = 0\n    print(\"\\n\")",
+        "detail": "d1.pyramid",
+        "documentation": {}
+    },
+    {
+        "label": "k",
+        "kind": 5,
+        "importPath": "d1.pyramid",
+        "description": "d1.pyramid",
+        "peekOfCode": "k = 0\nfor i in range(1, rows+1):\n    for space in range(1, (rows-i)+1):\n        print(end=\"  \")\n    while k!=(2*i-1):\n        print(\"* \", end=\"\")\n        k += 1\n    k = 0\n    print(\"\\n\")",
+        "detail": "d1.pyramid",
+        "documentation": {}
+    },
+    {
+        "label": "secrect_word",
+        "kind": 5,
+        "importPath": "d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "description": "d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "peekOfCode": "secrect_word = \"giraffe\"\nguess = \"\"\nwhile guess != secret_word:\n    guess = input(\"Enter guess: \")\nprint(\"You win!\")",
+        "detail": "d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "guess",
+        "kind": 5,
+        "importPath": "d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "description": "d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "peekOfCode": "guess = \"\"\nwhile guess != secret_word:\n    guess = input(\"Enter guess: \")\nprint(\"You win!\")",
+        "detail": "d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "askCa",
+        "kind": 2,
+        "importPath": "d3.game",
+        "description": "d3.game",
+        "peekOfCode": "def askCat (wordDict):\n    category = str( input (\"To start the game, please choose a category: \\n American Cities (A), Holidays(H), Colors(C), Foods (F) \"))\n    print()\n    if category == 'A':\n        print (\"You chose the American Cities category.\")\n        print(\"your word is the name of an American city use correct capitalization\")\n        cat = (wordDict['American Cities'])\n    elif category == 'H':\n        print (\"You chose the Holidays category.\")\n        print(\"Your word is a holiday use correct capitalization.\")",
+        "detail": "d3.game",
+        "documentation": {}
+    },
+    {
+        "label": "wordDict",
+        "kind": 5,
+        "importPath": "d3.game",
+        "description": "d3.game",
+        "peekOfCode": "wordDict = {'American Cities':['Denver','Malibu','Atlanta','Chicago','Orlando','Savannah','Nashville'], \\\n            'Holidays': ['Christmas','Easter','Valentines Day','Independence Day','Thanksgiving'], \\\n            'Colors': ['green','red','orange','blue','purple','brown','prink','black'], \\\n            'Foods': ['pizza','hotdog','hamburger','pasta','steak','soup','chicken']}\nfrom unicodedata import category, name\nname=input(\"Player name?\")\nprint(\"Good luck!\", name)\ndef askCat (wordDict):\n    category = str( input (\"To start the game, please choose a category: \\n American Cities (A), Holidays(H), Colors(C), Foods (F) \"))\n    print()",
+        "detail": "d3.game",
+        "documentation": {}
+    },
+    {
+        "label": "randWord",
+        "kind": 5,
+        "importPath": "d3.game",
+        "description": "d3.game",
+        "peekOfCode": "randWord = askCat(wordDict)\nword=(randWord)\nfrom unicodedata import category, name\nrepeat = True \nwhile repeat == True :\n    print(\"Your word has\", len(word), \"letters.\")\n    guesses = '7'\n    turns = 7\n    while turns > 0:\n        failed = 0",
+        "detail": "d3.game",
+        "documentation": {}
+    },
+    {
+        "label": "repeat",
+        "kind": 5,
+        "importPath": "d3.game",
+        "description": "d3.game",
+        "peekOfCode": "repeat = True \nwhile repeat == True :\n    print(\"Your word has\", len(word), \"letters.\")\n    guesses = '7'\n    turns = 7\n    while turns > 0:\n        failed = 0\n        for char in word:\n            if char in guesses:\n                print(char)",
+        "detail": "d3.game",
+        "documentation": {}
+    },
+    {
+        "label": "Card",
+        "kind": 6,
+        "importPath": "d5.blackjack",
+        "description": "d5.blackjack",
+        "peekOfCode": "class Card:\n    def _init_(self, suite, rank):\n        self.suite = suite\n        self.rank = rank\n    def _str_(self):\n            return f\"Rank{self.rank} \\Suite{self.suite}\"\n    c1 =Card (0,0)\n    c2=Card (1,1)\n    print (c1)",
+        "detail": "d5.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "class Employee:\n    all_ = []\n    def __init__(self, first_name, last_name, email_address, department, active_status):\n        # once a new employee is created, you can view your employees with \"Employee.all\"\n        self.all_.append(self)\n        self.first_name=first_name\n        self.last_name=last_name\n        self.email_address=email_address\n        self.department=department\n        self.active_status=active_status",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "Manager",
+        "kind": 6,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "class Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]\n        managed.append(employees.first_name)\n        return managed\n    def show_employees(self):\n        pass\n    def remove_employee(self, email_address):",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee1",
+        "kind": 5,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "employee1 = Employee(\"John\", \"Smith\",\"abc@gmail.com\", \"sales\", \"active\") \nemployee2 = Employee(\"Jill\", \"Jones\", \"def@gmail.com\",\"sales\", \"active\")\nemployee3 = Employee(\"Jane\", \"Bates\", \"ghi@gmail.com\", \"marketing\", \"active\")\nemployee4 = Employee(\"Jack\", \"Miller\", \"jkl@gmail.com\" ,\"creative\", \"active\")\nemployee5 = Employee(\"Jim\", \"Brown\", \"mno@gmail.com\", \"IT\", \"active\")\nemployee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee2",
+        "kind": 5,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "employee2 = Employee(\"Jill\", \"Jones\", \"def@gmail.com\",\"sales\", \"active\")\nemployee3 = Employee(\"Jane\", \"Bates\", \"ghi@gmail.com\", \"marketing\", \"active\")\nemployee4 = Employee(\"Jack\", \"Miller\", \"jkl@gmail.com\" ,\"creative\", \"active\")\nemployee5 = Employee(\"Jim\", \"Brown\", \"mno@gmail.com\", \"IT\", \"active\")\nemployee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee3",
+        "kind": 5,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "employee3 = Employee(\"Jane\", \"Bates\", \"ghi@gmail.com\", \"marketing\", \"active\")\nemployee4 = Employee(\"Jack\", \"Miller\", \"jkl@gmail.com\" ,\"creative\", \"active\")\nemployee5 = Employee(\"Jim\", \"Brown\", \"mno@gmail.com\", \"IT\", \"active\")\nemployee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee4",
+        "kind": 5,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "employee4 = Employee(\"Jack\", \"Miller\", \"jkl@gmail.com\" ,\"creative\", \"active\")\nemployee5 = Employee(\"Jim\", \"Brown\", \"mno@gmail.com\", \"IT\", \"active\")\nemployee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee5",
+        "kind": 5,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "employee5 = Employee(\"Jim\", \"Brown\", \"mno@gmail.com\", \"IT\", \"active\")\nemployee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee6",
+        "kind": 5,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "employee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee7",
+        "kind": 5,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "employee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee8",
+        "kind": 5,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "employee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]\n        managed.append(employees.first_name)",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee9",
+        "kind": 5,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "employee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]\n        managed.append(employees.first_name)\n        return managed",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee10",
+        "kind": 5,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "employee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]\n        managed.append(employees.first_name)\n        return managed\n    def show_employees(self):",
+        "detail": "d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employees",
+        "kind": 5,
+        "importPath": "d5.test",
+        "description": "d5.test",
+        "peekOfCode": "employees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]\n        managed.append(employees.first_name)\n        return managed\n    def show_employees(self):\n        pass",
+        "detail": "d5.test",
+        "documentation": {}
+    }
+]

@@ -31,11 +31,10 @@ class Manager(Employee):
     def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):
         self.employees=employees
 
-    def add_employee(self, department):
-        managed=[]
-        if Employee.department==Manager.department:
-            managed.append(Employee)
-            return managed
+    def add_employee(self, managed, employees.first_name):
+        self.managed=[]
+        managed.append(employees.first_name)
+        return managed
     def show_employees(self):
         pass
 

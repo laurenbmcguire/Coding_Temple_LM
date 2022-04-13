@@ -1,0 +1,439 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "category",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "category",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "hello_name",
+        "kind": 2,
+        "importPath": "wk1.pre_work.pythonQs",
+        "description": "wk1.pre_work.pythonQs",
+        "peekOfCode": "def hello_name(user_name):\n    user_name=input(\"What is your name?\")\n        print(user_name)",
+        "detail": "wk1.pre_work.pythonQs",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "wk2.d1.calculator",
+        "description": "wk2.d1.calculator",
+        "peekOfCode": "def add(x,y):\n    return x + y\ndef sub(x,y):\n    return x - y\ndef mult(x,y):\n    return x * y\ndef divide(x,y):\n    return x / y\nwhile True:\n    options = ['1','2','3','4']",
+        "detail": "wk2.d1.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "sub",
+        "kind": 2,
+        "importPath": "wk2.d1.calculator",
+        "description": "wk2.d1.calculator",
+        "peekOfCode": "def sub(x,y):\n    return x - y\ndef mult(x,y):\n    return x * y\ndef divide(x,y):\n    return x / y\nwhile True:\n    options = ['1','2','3','4']\n    choice = input(\"Please enter the number of the operation you wish to perform:\\n 1. Addition\\n 2. Subtraction\\n 3. Multiplication\\n 4. Division\\n \")\n    if choice in options:",
+        "detail": "wk2.d1.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "mult",
+        "kind": 2,
+        "importPath": "wk2.d1.calculator",
+        "description": "wk2.d1.calculator",
+        "peekOfCode": "def mult(x,y):\n    return x * y\ndef divide(x,y):\n    return x / y\nwhile True:\n    options = ['1','2','3','4']\n    choice = input(\"Please enter the number of the operation you wish to perform:\\n 1. Addition\\n 2. Subtraction\\n 3. Multiplication\\n 4. Division\\n \")\n    if choice in options:\n        num1 = float(input(\"Please enter your first number: \"))\n        num2 = float(input(\"Please enter your second number: \"))",
+        "detail": "wk2.d1.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "wk2.d1.calculator",
+        "description": "wk2.d1.calculator",
+        "peekOfCode": "def divide(x,y):\n    return x / y\nwhile True:\n    options = ['1','2','3','4']\n    choice = input(\"Please enter the number of the operation you wish to perform:\\n 1. Addition\\n 2. Subtraction\\n 3. Multiplication\\n 4. Division\\n \")\n    if choice in options:\n        num1 = float(input(\"Please enter your first number: \"))\n        num2 = float(input(\"Please enter your second number: \"))\n    #print(f\"{num1},{num2}\")\n        print(\"Your answer is: \")",
+        "detail": "wk2.d1.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "rows",
+        "kind": 5,
+        "importPath": "wk2.d1.pyramid",
+        "description": "wk2.d1.pyramid",
+        "peekOfCode": "rows = int(input(\"Enter number of rows: \"))\nk = 0\nfor i in range(1, rows+1):\n    for space in range(1, (rows-i)+1):\n        print(end=\"  \")\n    while k!=(2*i-1):\n        print(\"* \", end=\"\")\n        k += 1\n    k = 0\n    print(\"\\n\")",
+        "detail": "wk2.d1.pyramid",
+        "documentation": {}
+    },
+    {
+        "label": "k",
+        "kind": 5,
+        "importPath": "wk2.d1.pyramid",
+        "description": "wk2.d1.pyramid",
+        "peekOfCode": "k = 0\nfor i in range(1, rows+1):\n    for space in range(1, (rows-i)+1):\n        print(end=\"  \")\n    while k!=(2*i-1):\n        print(\"* \", end=\"\")\n        k += 1\n    k = 0\n    print(\"\\n\")",
+        "detail": "wk2.d1.pyramid",
+        "documentation": {}
+    },
+    {
+        "label": "secrect_word",
+        "kind": 5,
+        "importPath": "wk2.d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "description": "wk2.d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "peekOfCode": "secrect_word = \"giraffe\"\nguess = \"\"\nwhile guess != secret_word:\n    guess = input(\"Enter guess: \")\nprint(\"You win!\")",
+        "detail": "wk2.d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "guess",
+        "kind": 5,
+        "importPath": "wk2.d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "description": "wk2.d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "peekOfCode": "guess = \"\"\nwhile guess != secret_word:\n    guess = input(\"Enter guess: \")\nprint(\"You win!\")",
+        "detail": "wk2.d3..ipynb_checkpoints.secrect_word = \"giraffe\"-checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "askCa",
+        "kind": 2,
+        "importPath": "wk2.d3.game",
+        "description": "wk2.d3.game",
+        "peekOfCode": "def askCat (wordDict):\n    category = str( input (\"To start the game, please choose a category: \\n American Cities (A), Holidays(H), Colors(C), Foods (F) \"))\n    print()\n    if category == 'A':\n        print (\"You chose the American Cities category.\")\n        print(\"your word is the name of an American city use correct capitalization\")\n        cat = (wordDict['American Cities'])\n    elif category == 'H':\n        print (\"You chose the Holidays category.\")\n        print(\"Your word is a holiday use correct capitalization.\")",
+        "detail": "wk2.d3.game",
+        "documentation": {}
+    },
+    {
+        "label": "wordDict",
+        "kind": 5,
+        "importPath": "wk2.d3.game",
+        "description": "wk2.d3.game",
+        "peekOfCode": "wordDict = {'American Cities':['Denver','Malibu','Atlanta','Chicago','Orlando','Savannah','Nashville'], \\\n            'Holidays': ['Christmas','Easter','Valentines Day','Independence Day','Thanksgiving'], \\\n            'Colors': ['green','red','orange','blue','purple','brown','prink','black'], \\\n            'Foods': ['pizza','hotdog','hamburger','pasta','steak','soup','chicken']}\nfrom unicodedata import category, name\nname=input(\"Player name?\")\nprint(\"Good luck!\", name)\ndef askCat (wordDict):\n    category = str( input (\"To start the game, please choose a category: \\n American Cities (A), Holidays(H), Colors(C), Foods (F) \"))\n    print()",
+        "detail": "wk2.d3.game",
+        "documentation": {}
+    },
+    {
+        "label": "randWord",
+        "kind": 5,
+        "importPath": "wk2.d3.game",
+        "description": "wk2.d3.game",
+        "peekOfCode": "randWord = askCat(wordDict)\nword=(randWord)\nfrom unicodedata import category, name\nrepeat = True \nwhile repeat == True :\n    print(\"Your word has\", len(word), \"letters.\")\n    guesses = '7'\n    turns = 7\n    while turns > 0:\n        failed = 0",
+        "detail": "wk2.d3.game",
+        "documentation": {}
+    },
+    {
+        "label": "repeat",
+        "kind": 5,
+        "importPath": "wk2.d3.game",
+        "description": "wk2.d3.game",
+        "peekOfCode": "repeat = True \nwhile repeat == True :\n    print(\"Your word has\", len(word), \"letters.\")\n    guesses = '7'\n    turns = 7\n    while turns > 0:\n        failed = 0\n        for char in word:\n            if char in guesses:\n                print(char)",
+        "detail": "wk2.d3.game",
+        "documentation": {}
+    },
+    {
+        "label": "Card",
+        "kind": 6,
+        "importPath": "wk2.d5.blackjack",
+        "description": "wk2.d5.blackjack",
+        "peekOfCode": "class Card:\n    def _init_(self, suite, rank):\n        self.suite = suite\n        self.rank = rank\n    def _str_(self):\n            return f\"Rank{self.rank} \\Suite{self.suite}\"\n    c1 =Card (0,0)\n    c2=Card (1,1)\n    print (c1)",
+        "detail": "wk2.d5.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "class Employee:\n    all_ = []\n    def __init__(self, first_name, last_name, email_address, department, active_status):\n        # once a new employee is created, you can view your employees with \"Employee.all\"\n        self.all_.append(self)\n        self.first_name=first_name\n        self.last_name=last_name\n        self.email_address=email_address\n        self.department=department\n        self.active_status=active_status",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "Manager",
+        "kind": 6,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "class Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]\n        managed.append(employees.first_name)\n        return managed\n    def show_employees(self):\n        pass\n    def remove_employee(self, email_address):",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee1",
+        "kind": 5,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "employee1 = Employee(\"John\", \"Smith\",\"abc@gmail.com\", \"sales\", \"active\") \nemployee2 = Employee(\"Jill\", \"Jones\", \"def@gmail.com\",\"sales\", \"active\")\nemployee3 = Employee(\"Jane\", \"Bates\", \"ghi@gmail.com\", \"marketing\", \"active\")\nemployee4 = Employee(\"Jack\", \"Miller\", \"jkl@gmail.com\" ,\"creative\", \"active\")\nemployee5 = Employee(\"Jim\", \"Brown\", \"mno@gmail.com\", \"IT\", \"active\")\nemployee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee2",
+        "kind": 5,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "employee2 = Employee(\"Jill\", \"Jones\", \"def@gmail.com\",\"sales\", \"active\")\nemployee3 = Employee(\"Jane\", \"Bates\", \"ghi@gmail.com\", \"marketing\", \"active\")\nemployee4 = Employee(\"Jack\", \"Miller\", \"jkl@gmail.com\" ,\"creative\", \"active\")\nemployee5 = Employee(\"Jim\", \"Brown\", \"mno@gmail.com\", \"IT\", \"active\")\nemployee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee3",
+        "kind": 5,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "employee3 = Employee(\"Jane\", \"Bates\", \"ghi@gmail.com\", \"marketing\", \"active\")\nemployee4 = Employee(\"Jack\", \"Miller\", \"jkl@gmail.com\" ,\"creative\", \"active\")\nemployee5 = Employee(\"Jim\", \"Brown\", \"mno@gmail.com\", \"IT\", \"active\")\nemployee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee4",
+        "kind": 5,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "employee4 = Employee(\"Jack\", \"Miller\", \"jkl@gmail.com\" ,\"creative\", \"active\")\nemployee5 = Employee(\"Jim\", \"Brown\", \"mno@gmail.com\", \"IT\", \"active\")\nemployee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee5",
+        "kind": 5,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "employee5 = Employee(\"Jim\", \"Brown\", \"mno@gmail.com\", \"IT\", \"active\")\nemployee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee6",
+        "kind": 5,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "employee6 = Employee(\"Jessica\", \"Hunter\", \"pqr@gmail.com\", \"IT\", \"inactive\")\nemployee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee7",
+        "kind": 5,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "employee7 = Employee(\"Justin\", \"Dean\", \"stu@gmail.com\", \"sales\", \"active\")\nemployee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee8",
+        "kind": 5,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "employee8 = Employee(\"Julie\", \"Ward\", \"vwx@gmail.com\" ,\"marketing\", \"active\")\nemployee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]\n        managed.append(employees.first_name)",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee9",
+        "kind": 5,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "employee9 = Employee(\"James\", \"Allen\", \"yza@gmail.com\" ,\"creative\", \"inactive\")\nemployee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]\n        managed.append(employees.first_name)\n        return managed",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employee10",
+        "kind": 5,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "employee10 = Employee(\"Jake\", \"Harding\", \"bcd@gmail.com\" , \"IT\", \"active\")\nemployees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]\n        managed.append(employees.first_name)\n        return managed\n    def show_employees(self):",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "employees",
+        "kind": 5,
+        "importPath": "wk2.d5.test",
+        "description": "wk2.d5.test",
+        "peekOfCode": "employees = [employee1,employee3,employee4,employee5]\nclass Manager(Employee):\n    def __init__(self, first_name, last_name, email_address, department, active_status, employees=[]):\n        self.employees=employees\n    def add_employee(self, managed, employees.first_name):\n        self.managed=[]\n        managed.append(employees.first_name)\n        return managed\n    def show_employees(self):\n        pass",
+        "detail": "wk2.d5.test",
+        "documentation": {}
+    },
+    {
+        "label": "print_username",
+        "kind": 2,
+        "importPath": "wk3.catchingup.finalpwquestions.pwquestions",
+        "description": "wk3.catchingup.finalpwquestions.pwquestions",
+        "peekOfCode": "def print_username(username):\n    print(f\"hello_{username.upper()}\")\n# Question 2. \nstart = 0\nfor num in range(200):\n    if num % 2 != 0:\n        start += 1\n        print(f\"{start}) {num}\")\n# Question 3.\ndef bubble_sort(u_list):",
+        "detail": "wk3.catchingup.finalpwquestions.pwquestions",
+        "documentation": {}
+    },
+    {
+        "label": "bubble_sort",
+        "kind": 2,
+        "importPath": "wk3.catchingup.finalpwquestions.pwquestions",
+        "description": "wk3.catchingup.finalpwquestions.pwquestions",
+        "peekOfCode": "def bubble_sort(u_list):\n    a_list = u_list.copy()\n    for i in range(len(a_list) - 1):\n        for j in range(len(a_list) - i - 1):\n            if a_list[j] > a_list[j+1]:\n                a_list[j], a_list[j+1] = a_list[j+1], a_list[j]\n    return a_list[-1]\n# Question 4. \ndef get_leap_years():\n    current_iteration = 1",
+        "detail": "wk3.catchingup.finalpwquestions.pwquestions",
+        "documentation": {}
+    },
+    {
+        "label": "get_leap_years",
+        "kind": 2,
+        "importPath": "wk3.catchingup.finalpwquestions.pwquestions",
+        "description": "wk3.catchingup.finalpwquestions.pwquestions",
+        "peekOfCode": "def get_leap_years():\n    current_iteration = 1\n    year = 2000\n    while year < 3001:\n        if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:\n            print(f\"{current_iteration}) {year}\")\n            current_iteration += 1\n        year += 1\nget_leap_years()\n# Question 5. ",
+        "detail": "wk3.catchingup.finalpwquestions.pwquestions",
+        "documentation": {}
+    },
+    {
+        "label": "is_consecutive",
+        "kind": 2,
+        "importPath": "wk3.catchingup.finalpwquestions.pwquestions",
+        "description": "wk3.catchingup.finalpwquestions.pwquestions",
+        "peekOfCode": "def is_consecutive(a_list):\n    for i in range(len(a_list) - 1):\n        if a_list[i] + 1 != a_list[i+1]:\n            return False\n    return True",
+        "detail": "wk3.catchingup.finalpwquestions.pwquestions",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 5,
+        "importPath": "wk3.catchingup.finalpwquestions.pwquestions",
+        "description": "wk3.catchingup.finalpwquestions.pwquestions",
+        "peekOfCode": "start = 0\nfor num in range(200):\n    if num % 2 != 0:\n        start += 1\n        print(f\"{start}) {num}\")\n# Question 3.\ndef bubble_sort(u_list):\n    a_list = u_list.copy()\n    for i in range(len(a_list) - 1):\n        for j in range(len(a_list) - i - 1):",
+        "detail": "wk3.catchingup.finalpwquestions.pwquestions",
+        "documentation": {}
+    },
+    {
+        "label": "square_footage_of_room",
+        "kind": 2,
+        "importPath": "wk3.catchingup.pyhw2folder..ipynb_checkpoints.pyhw2-checkpoint",
+        "description": "wk3.catchingup.pyhw2folder..ipynb_checkpoints.pyhw2-checkpoint",
+        "peekOfCode": "def square_footage_of_room(w,h):\n   return int(w)*int(h) \ndef findCircum(r):\n    PI=3.14\n    return float(2 * PI * float(r))",
+        "detail": "wk3.catchingup.pyhw2folder..ipynb_checkpoints.pyhw2-checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "findCircum",
+        "kind": 2,
+        "importPath": "wk3.catchingup.pyhw2folder..ipynb_checkpoints.pyhw2-checkpoint",
+        "description": "wk3.catchingup.pyhw2folder..ipynb_checkpoints.pyhw2-checkpoint",
+        "peekOfCode": "def findCircum(r):\n    PI=3.14\n    return float(2 * PI * float(r))",
+        "detail": "wk3.catchingup.pyhw2folder..ipynb_checkpoints.pyhw2-checkpoint",
+        "documentation": {}
+    },
+    {
+        "label": "square_footage_of_room",
+        "kind": 2,
+        "importPath": "wk3.catchingup.pyhw2folder.pyhw2",
+        "description": "wk3.catchingup.pyhw2folder.pyhw2",
+        "peekOfCode": "def square_footage_of_room(w,h):\n   return int(w)*int(h) \ndef findCircum(r):\n    PI=3.14\n    return float(2 * PI * float(r))",
+        "detail": "wk3.catchingup.pyhw2folder.pyhw2",
+        "documentation": {}
+    },
+    {
+        "label": "findCircum",
+        "kind": 2,
+        "importPath": "wk3.catchingup.pyhw2folder.pyhw2",
+        "description": "wk3.catchingup.pyhw2folder.pyhw2",
+        "peekOfCode": "def findCircum(r):\n    PI=3.14\n    return float(2 * PI * float(r))",
+        "detail": "wk3.catchingup.pyhw2folder.pyhw2",
+        "documentation": {}
+    },
+    {
+        "label": "show_instructions",
+        "kind": 2,
+        "importPath": "wk3.catchingup.shopping_cart.shoppingcart",
+        "description": "wk3.catchingup.shopping_cart.shoppingcart",
+        "peekOfCode": "def show_instructions():\n    print(\"\"\"Type 'add' to add an item to your cart.\nType 'remove' to remove an item from your cart.\nType 'clear' to clear all items from your cart.\nType 'quit' to quit the program.\"\"\")\n    print('='*60)\ndef add_item(shopping_cart, item):\n    shopping_cart.append(item)\ndef remove_item(shopping_cart, item):\n    shopping_cart.remove(item)",
+        "detail": "wk3.catchingup.shopping_cart.shoppingcart",
+        "documentation": {}
+    },
+    {
+        "label": "add_item",
+        "kind": 2,
+        "importPath": "wk3.catchingup.shopping_cart.shoppingcart",
+        "description": "wk3.catchingup.shopping_cart.shoppingcart",
+        "peekOfCode": "def add_item(shopping_cart, item):\n    shopping_cart.append(item)\ndef remove_item(shopping_cart, item):\n    shopping_cart.remove(item)\ndef show_items(shopping_cart):\n    if shopping_cart:\n        for idx, item in enumerate(set(shopping_cart)):\n            print(f\"{idx+1}) {item} [{shopping_cart.count(item)}]\")\n    else:\n        print(\"You have no items in your cart.\")",
+        "detail": "wk3.catchingup.shopping_cart.shoppingcart",
+        "documentation": {}
+    },
+    {
+        "label": "remove_item",
+        "kind": 2,
+        "importPath": "wk3.catchingup.shopping_cart.shoppingcart",
+        "description": "wk3.catchingup.shopping_cart.shoppingcart",
+        "peekOfCode": "def remove_item(shopping_cart, item):\n    shopping_cart.remove(item)\ndef show_items(shopping_cart):\n    if shopping_cart:\n        for idx, item in enumerate(set(shopping_cart)):\n            print(f\"{idx+1}) {item} [{shopping_cart.count(item)}]\")\n    else:\n        print(\"You have no items in your cart.\")\n    print('='*60)\ndef clear_items(shopping_cart):",
+        "detail": "wk3.catchingup.shopping_cart.shoppingcart",
+        "documentation": {}
+    },
+    {
+        "label": "show_items",
+        "kind": 2,
+        "importPath": "wk3.catchingup.shopping_cart.shoppingcart",
+        "description": "wk3.catchingup.shopping_cart.shoppingcart",
+        "peekOfCode": "def show_items(shopping_cart):\n    if shopping_cart:\n        for idx, item in enumerate(set(shopping_cart)):\n            print(f\"{idx+1}) {item} [{shopping_cart.count(item)}]\")\n    else:\n        print(\"You have no items in your cart.\")\n    print('='*60)\ndef clear_items(shopping_cart):\n    shopping_cart.clear()\ndef shopping_cart():",
+        "detail": "wk3.catchingup.shopping_cart.shoppingcart",
+        "documentation": {}
+    },
+    {
+        "label": "clear_items",
+        "kind": 2,
+        "importPath": "wk3.catchingup.shopping_cart.shoppingcart",
+        "description": "wk3.catchingup.shopping_cart.shoppingcart",
+        "peekOfCode": "def clear_items(shopping_cart):\n    shopping_cart.clear()\ndef shopping_cart():\n    cart = []\n    done = False\n    while not done:\n        show_instructions()\n        show_items(cart)\n        decision = input('What would you like to do? ').lower()\n        if decision == 'quit':",
+        "detail": "wk3.catchingup.shopping_cart.shoppingcart",
+        "documentation": {}
+    },
+    {
+        "label": "shopping_cart",
+        "kind": 2,
+        "importPath": "wk3.catchingup.shopping_cart.shoppingcart",
+        "description": "wk3.catchingup.shopping_cart.shoppingcart",
+        "peekOfCode": "def shopping_cart():\n    cart = []\n    done = False\n    while not done:\n        show_instructions()\n        show_items(cart)\n        decision = input('What would you like to do? ').lower()\n        if decision == 'quit':\n            done = True\n        elif decision == 'add':",
+        "detail": "wk3.catchingup.shopping_cart.shoppingcart",
+        "documentation": {}
+    },
+    {
+        "label": "longest_word",
+        "kind": 2,
+        "importPath": "wk3.catchingup.white_board.# Find the longest word",
+        "description": "wk3.catchingup.white_board.# Find the longest word",
+        "peekOfCode": "def longest_word(a_str):\n    longest_word =''\n    words=[]\n    for word in a_str.split():\n        if len(word) > len(longest_word):\n            longest_word=word\n    return longest_word\nprint(longest_word(a1))",
+        "detail": "wk3.catchingup.white_board.# Find the longest word",
+        "documentation": {}
+    },
+    {
+        "label": "a1",
+        "kind": 5,
+        "importPath": "wk3.catchingup.white_board.# Find the longest word",
+        "description": "wk3.catchingup.white_board.# Find the longest word",
+        "peekOfCode": "a1 = \"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"\n# Output\n# consectetur\ndef longest_word(a_str):\n    longest_word =''\n    words=[]\n    for word in a_str.split():\n        if len(word) > len(longest_word):\n            longest_word=word\n    return longest_word",
+        "detail": "wk3.catchingup.white_board.# Find the longest word",
+        "documentation": {}
+    }
+]
