@@ -1,0 +1,57 @@
+
+
+products={'banana': 1,
+          'apple': 1,
+          'orange': 2,
+          'pizza': 5,
+          'hot-dogs':2}
+
+removed_items={
+    
+ 
+}
+
+item_list=[]
+item_price=[]
+print(products)
+adds=input('Hello! Type the name of the item you would like to add to your shopping cart ')
+item_list.append(adds)
+item_prices=input('how much is the price of the item you would like to add to your shopping cart?')
+item_price.append(item_prices[:])
+
+
+print('you just added ' + item_list[-1] + ' to your shopping cart')
+
+
+con = input('to add another item type Y, to view your cart type C')
+
+while con=='Y':
+    ans=input('what item would you like to add?')
+    item_list.append(ans)
+    ans2=input(int('what is the price of the item?'))
+    item_price.append(ans2[:])
+    print('you just added  ' + item_list[-1] + ' to your shopping cart')
+    print('your shopping cart total is now ')
+    print (item_price)
+    con =input('to add another item type Y, if you are done adding items, type C to view your cart')
+else:
+    # con !='Y'
+    print("Here is your shopping cart: ")
+    print(item_list)
+    print(item_prices)
+    
+    
+        
+revise=input("to finalize your shopping cart and checkout, type F to remove an item type R")
+while revise=='R':
+    removed_item=input("type the item you want to remove")
+    removed_items.append(removed_item)
+    item_list.remove(removed_item)
+    print('you just removed ' +removed_items[-1]  + ' from your shopping cart')
+    revise=input("to finalize your shopping cart and checkout, type F to remove an item type R")
+else:    
+    print("Here are the items you selected: ")
+    print(item_list)
+    total_final=sum(item_prices)
+    print(total_final)
+   

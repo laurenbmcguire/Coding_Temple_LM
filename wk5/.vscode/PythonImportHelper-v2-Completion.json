@@ -1,0 +1,38 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "room_counts",
+        "kind": 5,
+        "importPath": "module",
+        "description": "module",
+        "peekOfCode": "room_counts = int(input('How many rooms does the floor have?'))\ntotal=0\nfor i in range(room_counts):\n    length=float(input('room #%s length?'%(i+1)))\n    width=float(input('room #%s width?'%(i+1)))\n    total +=length*width\nprint ('total is ',total)\n#question2\nradius = float(input(\"Enter the radius of the circle : \"))\ncircumference = 2 * math.pi * radius",
+        "detail": "module",
+        "documentation": {}
+    },
+    {
+        "label": "radius",
+        "kind": 5,
+        "importPath": "module",
+        "description": "module",
+        "peekOfCode": "radius = float(input(\"Enter the radius of the circle : \"))\ncircumference = 2 * math.pi * radius\nprint(\"Circumference of the circle is : %.2f\" % circumference)",
+        "detail": "module",
+        "documentation": {}
+    },
+    {
+        "label": "circumference",
+        "kind": 5,
+        "importPath": "module",
+        "description": "module",
+        "peekOfCode": "circumference = 2 * math.pi * radius\nprint(\"Circumference of the circle is : %.2f\" % circumference)",
+        "detail": "module",
+        "documentation": {}
+    }
+]

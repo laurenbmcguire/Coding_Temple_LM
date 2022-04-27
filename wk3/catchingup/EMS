@@ -1,0 +1,75 @@
+from email.policy import EmailPolicy
+from mimetypes import init
+from unicodedata import name
+
+
+class Person:
+    def __init__(self, name, role, manager, status,is_manager):
+        self.name = name
+        self.role = role
+        self.manager = manager
+        self.status = status
+        self.is_manager=is_manager
+        
+    def __repr__(self):
+        return f"Person: {self.name}, Role: {self.role}, manager: {self.manager}, status: {self.status}, is managaer?{self.is_manager}"
+
+
+person1 = Person('Lauren Mcguire','Software Engineer','Liam McGuire','active','no')
+person2 = Person('Shannon Mcguire','Data Scientist','Liam McGuire','active','no')
+person3 = Person('Liam McGuire','5 Year Old Angel/House Manager','God Almighty','active','yes')
+person4 = Person('Shiloh McGuire','Assistant Manager','God Almighty','active','yes')
+employees=[person1,person2,person3,person4]
+managers=[]
+subordinates=[]
+
+for e in employees:
+    if e.is_manager == 'yes':
+        managers.append(e.name)
+#print(managers)
+
+for e in employees :
+    if e.is_manager=='no':
+        subordinates.append(e.name)
+#print(subordinates)
+
+
+input_a=input   
+  
+for input_a in input: 
+    q1=input("Type view to view list of company employees")
+if q1(input)== "yes":
+    print(employees)
+else: print ("next question..")
+q2=input("Type assign to assign employee to manager")
+if q2=="assign":
+    input('what is the name of the employee you would like to assign to a manager?')
+    input('what is the managers name to assign the employee to?')
+    
+q3=input("Type add to add a new employee")
+for i in q3:
+    if i == 'add':
+        print("Please enter the information for the employee you would like to add.")
+        b1 = input("name: ")
+        b2 = input("role: ")
+        b3 = input("manager: ")
+        b4 = input("status: ")
+        b5 = input("is manager? Type yes or no: ")
+        # return Person:{self.name}, Role: {self.role}, manager: {self.manager}, status: {self.status}, is managaer?{self.is_manager}"
+        b1, b2, b3, b4, b5 = employees.append("name", 'role', 'manager', 'status', 'is_manager') 
+q4=input("Type update to update an employees employement status")
+if q4=="update":
+    input=("what is the name of the employee you need to update?")
+    print("Please enter the information for the employee you would like to add.")
+    c1 = input("name: ")
+    c2 = input("role: ")
+    c3 = input("manager: ")
+    c4 = input("status: ")
+    c5 = input("is manager? Type yes or no: ")
+    q5=input("Type exit to end the application")
+    if q5=="yes":
+            print ('goodbye')
+    else:
+        exit()
+
+
