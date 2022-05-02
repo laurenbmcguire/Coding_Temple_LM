@@ -1,5 +1,63 @@
 [
     {
+        "label": "decimal",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "Main",
+        "importPath": "Queue",
+        "description": "Queue",
+        "isExtraImport": true,
+        "detail": "Queue",
+        "documentation": {}
+    },
+    {
+        "label": "Queue",
+        "importPath": "Queue",
+        "description": "Queue",
+        "isExtraImport": true,
+        "detail": "Queue",
+        "documentation": {}
+    },
+    {
+        "label": "Node",
+        "importPath": "Queue",
+        "description": "Queue",
+        "isExtraImport": true,
+        "detail": "Queue",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
         "label": "random",
         "kind": 6,
         "isExtraImport": true,
@@ -15,6 +73,96 @@
         "importPath": "math",
         "description": "math",
         "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "Node",
+        "kind": 6,
+        "importPath": "catchingup.Queues_and_TestingHW",
+        "description": "catchingup.Queues_and_TestingHW",
+        "peekOfCode": "class Node:\n                                                        #Initialize node object\n    def __init__(self, element):\n        self.element = element                          # Assign element value\n        self.next = None                                # Initialize next as null\n        self.prev = None                                # Initialize prev as null\nclass Queue:                                                 \n                                                        # Function to initialize queue\n    def __init__(self):\n        self.frontofLine = None",
+        "detail": "catchingup.Queues_and_TestingHW",
+        "documentation": {}
+    },
+    {
+        "label": "Queue",
+        "kind": 6,
+        "importPath": "catchingup.Queues_and_TestingHW",
+        "description": "catchingup.Queues_and_TestingHW",
+        "peekOfCode": "class Queue:                                                 \n                                                        # Function to initialize queue\n    def __init__(self):\n        self.frontofLine = None\n        self.last= None\n                                                        # Enqueue element\n    def enqueue(self, element):\n        if self.last is None:                           #If there's no element \n            self.frontofLine = Node(element)            #The front of the line of the queue is formed\n            self.last = self.frontofLine                #make the last element the front of the line",
+        "detail": "catchingup.Queues_and_TestingHW",
+        "documentation": {}
+    },
+    {
+        "label": "Main",
+        "kind": 6,
+        "importPath": "catchingup.Queues_and_TestingHW",
+        "description": "catchingup.Queues_and_TestingHW",
+        "peekOfCode": "class Main:\n    def run(self):\n        queue = Queue()\n        decision =\"\"\n        while decision != \"9\":\n            decision = input(\"Would you like to enqueue, dequeue or see the queue? Click 9 to exit \").lower()\n            if decision == \"enqueue\":\n                queue.enqueue(input(\"Who are we adding to the list? \"))\n            elif decision == \"dequeue\":\n                queue.dequeue()",
+        "detail": "catchingup.Queues_and_TestingHW",
+        "documentation": {}
+    },
+    {
+        "label": "Tests",
+        "kind": 6,
+        "importPath": "catchingup.Queues_and_TestingT",
+        "description": "catchingup.Queues_and_TestingT",
+        "peekOfCode": "class Tests(unittest.TestCase):\n    def test_inputting(self):\n        queue = Queue()\n        queue.enqueue(\"Enrique\")\n        printed = queue.printqueue()\n        self.assertEquals(\"People in your queue are:Enrique, \", printed)\n    def test_dequeing(self):\n        queue = Queue()\n        queue.enqueue(\"Enrique\")\n        queue.enqueue(\"Jorge\")",
+        "detail": "catchingup.Queues_and_TestingT",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "catchingup.SeleniumChallenge",
+        "description": "catchingup.SeleniumChallenge",
+        "peekOfCode": "username = \"username\"\npassword = \"password\"\n# initialize the Chrome driver\ndriver = webdriver.Chrome(\"chromedriver\")\n# head to login page\ndriver.get(\"https://modest-jennings-77f32e.netlify.app/login\")\n# find username/email field and send the username itself to the input field\ndriver.find_element_by_id(\"login_field\").send_keys(username)\n# find password input field and insert password as well\ndriver.find_element_by_id(\"password\").send_keys(password)",
+        "detail": "catchingup.SeleniumChallenge",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "catchingup.SeleniumChallenge",
+        "description": "catchingup.SeleniumChallenge",
+        "peekOfCode": "password = \"password\"\n# initialize the Chrome driver\ndriver = webdriver.Chrome(\"chromedriver\")\n# head to login page\ndriver.get(\"https://modest-jennings-77f32e.netlify.app/login\")\n# find username/email field and send the username itself to the input field\ndriver.find_element_by_id(\"login_field\").send_keys(username)\n# find password input field and insert password as well\ndriver.find_element_by_id(\"password\").send_keys(password)\n# click login button",
+        "detail": "catchingup.SeleniumChallenge",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "catchingup.SeleniumChallenge",
+        "description": "catchingup.SeleniumChallenge",
+        "peekOfCode": "driver = webdriver.Chrome(\"chromedriver\")\n# head to login page\ndriver.get(\"https://modest-jennings-77f32e.netlify.app/login\")\n# find username/email field and send the username itself to the input field\ndriver.find_element_by_id(\"login_field\").send_keys(username)\n# find password input field and insert password as well\ndriver.find_element_by_id(\"password\").send_keys(password)\n# click login button\ndriver.find_element_by_name(\"commit\").click()",
+        "detail": "catchingup.SeleniumChallenge",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "catchingup.hwregex",
+        "description": "catchingup.hwregex",
+        "peekOfCode": "file = open('./names.txt', encoding='utf-8')\ndata = file.read()\nseparated_string = data.splitlines()\nfor files in separated_string:\n    name = re.search('.+?(?=\\t)', files)\n    name = re.search('.+?(?=\\t)', files)\n    list = {}\n    if name:\n        list[\"Name\"] = (name.group())\n    job = re.findall('/\\t[\\s\\S]*/', files)",
+        "detail": "catchingup.hwregex",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "catchingup.hwregex",
+        "description": "catchingup.hwregex",
+        "peekOfCode": "data = file.read()\nseparated_string = data.splitlines()\nfor files in separated_string:\n    name = re.search('.+?(?=\\t)', files)\n    name = re.search('.+?(?=\\t)', files)\n    list = {}\n    if name:\n        list[\"Name\"] = (name.group())\n    job = re.findall('/\\t[\\s\\S]*/', files)\n    if job:",
+        "detail": "catchingup.hwregex",
+        "documentation": {}
+    },
+    {
+        "label": "separated_string",
+        "kind": 5,
+        "importPath": "catchingup.hwregex",
+        "description": "catchingup.hwregex",
+        "peekOfCode": "separated_string = data.splitlines()\nfor files in separated_string:\n    name = re.search('.+?(?=\\t)', files)\n    name = re.search('.+?(?=\\t)', files)\n    list = {}\n    if name:\n        list[\"Name\"] = (name.group())\n    job = re.findall('/\\t[\\s\\S]*/', files)\n    if job:\n      list[\"Job\"] = (job[0])",
+        "detail": "catchingup.hwregex",
         "documentation": {}
     },
     {
