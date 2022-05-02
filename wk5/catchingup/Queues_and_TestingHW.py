@@ -1,67 +1,58 @@
 class Node:
-                                                        #Initialize node object
     def __init__(self, element):
-        self.element = element                          # Assign element value
-        self.next = None                                # Initialize next as null
-        self.prev = None                                # Initialize prev as null
-        
-class Queue:                                                 
-   
-                                                        # Function to initialize queue
+        self.element = element                          
+        self.next = None                               
+        self.prev = None                                
+class Queue:
+
     def __init__(self):
         self.frontofLine = None
-        self.last= None
-           
-   
-                                                        # Enqueue element
+        self.last = None
+
     def enqueue(self, element):
-        if self.last is None:                           #If there's no element 
-            self.frontofLine = Node(element)            #The front of the line of the queue is formed
-            self.last = self.frontofLine                #make the last element the front of the line
+        if self.last is None:  
+            self.frontofLine = Node(element)
+            self.last = self.frontofLine  
         else:
-            self.last.next = Node(element)              #node after the back of the line 
-            self.last.next.prev=self.last               #node for next node 
-            self.last = self.last.next                  #node for element that is ahead in the line
-               
-               
-                                                        #  Function to dequeue 
+            self.last.next = Node(element) 
+            self.last.next.prev = self.last  
+            self.last = self.last.next  
+
     def dequeue(self):
-   
-        if self.frontofLine is None:                    #if there's no front of the line, return nothing
+
+        if self.frontofLine is None:  
             return None
         else:
-            frontOfLineValue = self.frontofLine.element               #value of the front of the line holds the data of the first element
-            self.frontofLine = self.frontofLine.next                  #second element is not first element
-            self.frontofLine.prev = None                                #the "next" of the new front of the line is now none
-            return frontOfLineValue                                   #return the value of the orinigial first element
-   
-   
+            frontOfLineValue = self.frontofLine.element
+            self.frontofLine = self.frontofLine.next  
+            self.frontofLine.prev = None  
+            return frontOfLineValue 
 
-   
-                                                        # Function to print the queue 
     def printqueue(self):
-           
-        sentence = ("People in your queue are:")
-        frontOfLine=self.frontofLine                    #get the front of the line of the queue
-        while frontOfLine is not None:                  #if it's not none
-            name = (frontOfLine.element)         #print the element of the front of the line
-            sentence = sentence + name + ", "
-            frontOfLine=frontOfLine.next                #make the next item the front of the line until it's none
-        return sentence
-           
 
-   
+        sentence = ("The people in queue are: ")
+        frontOfLine = self.frontofLine 
+        while frontOfLine is not None:  # if it's not none
+            # print the element of the front of the line
+            name = (frontOfLine.element)
+            sentence = sentence + name + ", "
+            # make the next item the front of the line until it's none
+            frontOfLine = frontOfLine.next
+        return sentence
+
+
 class Main:
     def run(self):
         queue = Queue()
-        decision =""
-        while decision != "9":
-            decision = input("Would you like to enqueue, dequeue or see the queue? Click 9 to exit ").lower()
+        decision = ""
+        while decision != "quit":
+            decision = input(
+                "User, woule you like to enqueue, to dequeue or to see your queue? Type 'quit' to exit ").lower()
             if decision == "enqueue":
-                queue.enqueue(input("Who are we adding to the list? "))
+                queue.enqueue(input("Who would you like to add to the list "))
             elif decision == "dequeue":
                 queue.dequeue()
-            elif decision == "see the queue":
+            elif decision == "see your current queue":
                 print(queue.printqueue())
-            elif decision == "9":
+            elif decision == "quit":
                 break

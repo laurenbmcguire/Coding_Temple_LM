@@ -80,7 +80,7 @@
         "kind": 6,
         "importPath": "catchingup.Queues_and_TestingHW",
         "description": "catchingup.Queues_and_TestingHW",
-        "peekOfCode": "class Node:\n                                                        #Initialize node object\n    def __init__(self, element):\n        self.element = element                          # Assign element value\n        self.next = None                                # Initialize next as null\n        self.prev = None                                # Initialize prev as null\nclass Queue:                                                 \n                                                        # Function to initialize queue\n    def __init__(self):\n        self.frontofLine = None",
+        "peekOfCode": "class Node:\n    def __init__(self, element):\n        self.element = element                          \n        self.next = None                               \n        self.prev = None                                \nclass Queue:\n    def __init__(self):\n        self.frontofLine = None\n        self.last = None\n    def enqueue(self, element):",
         "detail": "catchingup.Queues_and_TestingHW",
         "documentation": {}
     },
@@ -89,7 +89,7 @@
         "kind": 6,
         "importPath": "catchingup.Queues_and_TestingHW",
         "description": "catchingup.Queues_and_TestingHW",
-        "peekOfCode": "class Queue:                                                 \n                                                        # Function to initialize queue\n    def __init__(self):\n        self.frontofLine = None\n        self.last= None\n                                                        # Enqueue element\n    def enqueue(self, element):\n        if self.last is None:                           #If there's no element \n            self.frontofLine = Node(element)            #The front of the line of the queue is formed\n            self.last = self.frontofLine                #make the last element the front of the line",
+        "peekOfCode": "class Queue:\n    def __init__(self):\n        self.frontofLine = None\n        self.last = None\n    def enqueue(self, element):\n        if self.last is None:  \n            self.frontofLine = Node(element)\n            self.last = self.frontofLine  \n        else:\n            self.last.next = Node(element) ",
         "detail": "catchingup.Queues_and_TestingHW",
         "documentation": {}
     },
@@ -98,7 +98,7 @@
         "kind": 6,
         "importPath": "catchingup.Queues_and_TestingHW",
         "description": "catchingup.Queues_and_TestingHW",
-        "peekOfCode": "class Main:\n    def run(self):\n        queue = Queue()\n        decision =\"\"\n        while decision != \"9\":\n            decision = input(\"Would you like to enqueue, dequeue or see the queue? Click 9 to exit \").lower()\n            if decision == \"enqueue\":\n                queue.enqueue(input(\"Who are we adding to the list? \"))\n            elif decision == \"dequeue\":\n                queue.dequeue()",
+        "peekOfCode": "class Main:\n    def run(self):\n        queue = Queue()\n        decision = \"\"\n        while decision != \"quit\":\n            decision = input(\n                \"User, woule you like to enqueue, to dequeue or to see your queue? Type 'quit' to exit \").lower()\n            if decision == \"enqueue\":\n                queue.enqueue(input(\"Who would you like to add to the list \"))\n            elif decision == \"dequeue\":",
         "detail": "catchingup.Queues_and_TestingHW",
         "documentation": {}
     },
