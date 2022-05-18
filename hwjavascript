@@ -1,0 +1,30 @@
+const dog_string = "Hello Max, my name is Dog, and I have purple eyes!";
+let dog_names = ["Max", "HAS", "PuRple", "dog"];
+
+
+dog_names.includes("")
+
+lnames = dog_names.join(' ').toLowerCase()
+console.log(lnames)
+
+lstring = dog_string.toLowerCase()
+console.log(lstring)
+
+
+namesplit = lnames.split(' ')
+console.log(namesplit)
+
+strsplit = lstring.split(' ')
+console.log(strsplit)
+
+
+
+for (i = 0; i < dog_names.length; i++) {
+    if (lstring.includes(lnames[i])) {
+        console.log('Matched ' + dog_names[i])
+    }
+    else {
+        console.log('No matches ' + dog_names[i])
+    }
+}
+

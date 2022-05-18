@@ -41,6 +41,708 @@
         "documentation": {}
     },
     {
+        "label": "decimal",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "clear_output",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "clear_output",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "responses",
+        "importPath": "http.client",
+        "description": "http.client",
+        "isExtraImport": true,
+        "detail": "http.client",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "Main",
+        "importPath": "Queue",
+        "description": "Queue",
+        "isExtraImport": true,
+        "detail": "Queue",
+        "documentation": {}
+    },
+    {
+        "label": "Queue",
+        "importPath": "Queue",
+        "description": "Queue",
+        "isExtraImport": true,
+        "detail": "Queue",
+        "documentation": {}
+    },
+    {
+        "label": "Node",
+        "importPath": "Queue",
+        "description": "Queue",
+        "isExtraImport": true,
+        "detail": "Queue",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "unique",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "mail",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "methods",
+        "importPath": "crypt",
+        "description": "crypt",
+        "isExtraImport": true,
+        "detail": "crypt",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "importPath": "app.blueprints.blog.models",
+        "description": "app.blueprints.blog.models",
+        "isExtraImport": true,
+        "detail": "app.blueprints.blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.blueprints.blog.models",
+        "description": "app.blueprints.blog.models",
+        "isExtraImport": true,
+        "detail": "app.blueprints.blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "importPath": "app.blueprints.blog.models",
+        "description": "app.blueprints.blog.models",
+        "isExtraImport": true,
+        "detail": "app.blueprints.blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.blueprints.blog.models",
+        "description": "app.blueprints.blog.models",
+        "isExtraImport": true,
+        "detail": "app.blueprints.blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "flask_mail",
+        "description": "flask_mail",
+        "isExtraImport": true,
+        "detail": "flask_mail",
+        "documentation": {}
+    },
+    {
+        "label": "mailchimp_marketing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mailchimp_marketing",
+        "description": "mailchimp_marketing",
+        "detail": "mailchimp_marketing",
+        "documentation": {}
+    },
+    {
+        "label": "ApiClientError",
+        "importPath": "mailchimp_marketing.api_client",
+        "description": "mailchimp_marketing.api_client",
+        "isExtraImport": true,
+        "detail": "mailchimp_marketing.api_client",
+        "documentation": {}
+    },
+    {
+        "label": "stripe",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stripe",
+        "description": "stripe",
+        "detail": "stripe",
+        "documentation": {}
+    },
+    {
+        "label": "Cart",
+        "importPath": "app.blueprints.shop.models",
+        "description": "app.blueprints.shop.models",
+        "isExtraImport": true,
+        "detail": "app.blueprints.shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "with_statement",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "hello_name",
         "kind": 2,
         "importPath": "wk1.pre_work.pythonQs",
@@ -365,6 +1067,24 @@
         "documentation": {}
     },
     {
+        "label": "ShoppingCart",
+        "kind": 6,
+        "importPath": "wk3.catchingup.shopping_cart.finalshoppingcartr",
+        "description": "wk3.catchingup.shopping_cart.finalshoppingcartr",
+        "peekOfCode": "class ShoppingCart:\n    def __init__(self):\n        self.cart = []\n    def run(self):\n        print=input(\"Welcome to the grocery shopping cart press enter to continue \")\n        while True:\n            item = input(\"what do you want to add? type 'quit' to exit. type 'clear' to remove an item. \")\n            if item == 'quit':\n                print(self.cart)\n                break",
+        "detail": "wk3.catchingup.shopping_cart.finalshoppingcartr",
+        "documentation": {}
+    },
+    {
+        "label": "shopping_cart",
+        "kind": 5,
+        "importPath": "wk3.catchingup.shopping_cart.finalshoppingcartr",
+        "description": "wk3.catchingup.shopping_cart.finalshoppingcartr",
+        "peekOfCode": "shopping_cart = ShoppingCart()\nshopping_cart.run()",
+        "detail": "wk3.catchingup.shopping_cart.finalshoppingcartr",
+        "documentation": {}
+    },
+    {
         "label": "show_instructions",
         "kind": 2,
         "importPath": "wk3.catchingup.shopping_cart.shoppingcart",
@@ -419,6 +1139,24 @@
         "documentation": {}
     },
     {
+        "label": "ShoppingCart",
+        "kind": 6,
+        "importPath": "wk3.catchingup.shopping_cart.shoppingcartr",
+        "description": "wk3.catchingup.shopping_cart.shoppingcartr",
+        "peekOfCode": "class ShoppingCart:\n    def __init__(self):\n        self.cart = []\n    def run(self):\n        print=input(\"Welcome to the grocery shopping cart press enter to continue \")\n        while True:\n            item = input(\"what do you want to add? type 'quit' to exit. type 'clear' to remove an item. \")\n            if item == 'quit':\n                print(self.cart)\n                break",
+        "detail": "wk3.catchingup.shopping_cart.shoppingcartr",
+        "documentation": {}
+    },
+    {
+        "label": "shopping_cart",
+        "kind": 5,
+        "importPath": "wk3.catchingup.shopping_cart.shoppingcartr",
+        "description": "wk3.catchingup.shopping_cart.shoppingcartr",
+        "peekOfCode": "shopping_cart = ShoppingCart()\nshopping_cart.run()",
+        "detail": "wk3.catchingup.shopping_cart.shoppingcartr",
+        "documentation": {}
+    },
+    {
         "label": "longest_word",
         "kind": 2,
         "importPath": "wk3.catchingup.white_board.# Find the longest word",
@@ -434,6 +1172,1095 @@
         "description": "wk3.catchingup.white_board.# Find the longest word",
         "peekOfCode": "a1 = \"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"\n# Output\n# consectetur\ndef longest_word(a_str):\n    longest_word =''\n    words=[]\n    for word in a_str.split():\n        if len(word) > len(longest_word):\n            longest_word=word\n    return longest_word",
         "detail": "wk3.catchingup.white_board.# Find the longest word",
+        "documentation": {}
+    },
+    {
+        "label": "Hand",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Hand:\n    def __init__(self):\n        self.holding = []\nclass Player:\n    def __init__(self):\n        self.hand = Hand()\nclass Dealer(Player):\n    def deal(self, recipient, card_deck):\n        if len(recipient.hand.holding) >= 2:\n            recipient.hand.holding.append(card_deck.cards.pop())",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Player:\n    def __init__(self):\n        self.hand = Hand()\nclass Dealer(Player):\n    def deal(self, recipient, card_deck):\n        if len(recipient.hand.holding) >= 2:\n            recipient.hand.holding.append(card_deck.cards.pop())\n        else:\n            for i in range(2):\n                recipient.hand.holding.append(card_deck.cards.pop())",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Dealer",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Dealer(Player):\n    def deal(self, recipient, card_deck):\n        if len(recipient.hand.holding) >= 2:\n            recipient.hand.holding.append(card_deck.cards.pop())\n        else:\n            for i in range(2):\n                recipient.hand.holding.append(card_deck.cards.pop())\nclass Card:\n    def __init__(self, suit, rank, face=False, ace=False):\n        self.suit = suit",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Card",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Card:\n    def __init__(self, suit, rank, face=False, ace=False):\n        self.suit = suit\n        self.rank = rank\n        if ace:\n            self.real_value = 1\n        elif face:\n            self.real_value = 10\n        else:\n            self.real_value = self.rank",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Deck",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Deck:\n    def __init__(self):\n        self.ranks = range(1, 14)\n        self.suits = ['Club', 'Spade', 'Diamond', 'Heart']\n        # self.cards = [Card(r, s) for s in self.suit for r in self.ranks]\n        self.cards = self.build_deck()\n#         deck_list = []\n#             for s in self.suits:\n#                 for r in self.ranks:\n#                     if r == 1:",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Blackjack",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Blackjack():\n    @classmethod\n    def run(cls):\n        game_over = False\n        while not game_over:\n            # set up the game\n            deck = Deck()\n            human = Player()\n            dealer = Dealer()\n            deck.shuffle_cards()",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Hand",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Hand:\n    def __init__(self):\n        self.holding = []\n    def get_total(self):\n        total = 0\n        for card_obj in self.holding:\n            total += card_obj.real_value\n        return total\nclass Player:\n    def __init__(self):",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Player",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Player:\n    def __init__(self):\n        self.hand = Hand() # see Hand class\n    # show one card if you're a dealer. two cards for all other players\n    # if the human player stands, there's no need to hide the dealer's cards anymore\n    def show_hand(self, stand=False):\n        if isinstance(self, Dealer):\n            if not stand:\n                print(f'Dealer --> {self.hand.holding[0]}')\n            else:",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Dealer",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Dealer(Player):\n    def deal(self, recipient, card_deck):\n        # if recipient has cards in their hand, only add one card, else add 2\n        if len(recipient.hand.holding) >= 2:\n            recipient.hand.holding.append(card_deck.cards.pop())\n        else:\n            for i in range(2):\n                recipient.hand.holding.append(card_deck.cards.pop())\nclass Card:\n    def __init__(self, suit, rank, face=False, ace=False):",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Card",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Card:\n    def __init__(self, suit, rank, face=False, ace=False):\n        self.suit = suit\n        self.rank = rank\n        if ace:\n            self.real_value = 1\n        elif face:\n            self.real_value = 10\n        else:\n            self.real_value = self.rank",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Deck",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Deck:\n    def __init__(self):\n        self.ranks = range(1, 14)\n        self.suits = ['Club', 'Spade', 'Diamond', 'Heart']\n        # self.cards = [Card(r, s) for s in self.suit for r in self.ranks]\n        self.cards = self.build_deck()\n#         deck_list = []\n#             for s in self.suits:\n#                 for r in self.ranks:\n#                     if r == 1:",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "Blackjack",
+        "kind": 6,
+        "importPath": "wk3.catchingup.blackjack",
+        "description": "wk3.catchingup.blackjack",
+        "peekOfCode": "class Blackjack():\n    current_round = 0\n    @classmethod\n    def run(cls):\n        game_over = False\n        while not game_over:\n            # set up the game\n            deck = Deck()\n            human = Player()\n            dealer = Dealer()",
+        "detail": "wk3.catchingup.blackjack",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "wk3.w3d4.pokemonapi",
+        "description": "wk3.w3d4.pokemonapi",
+        "peekOfCode": "url = 'https://pokeapi.co/docs/v2/pokemon/?limit=3'\n#no api key needed but if you do use one use something like\n#api_key = ''\n# api_call = f\"{base_url}?q={'charateristics'}\"\nprint(url)\nresponse = requests.get(url)\n# dir(response)\nprint(response.status_code)\n# response.url=\"https://pokeapi.co/docs/v2#characteristics\"\nresponse.json",
+        "detail": "wk3.w3d4.pokemonapi",
+        "documentation": {}
+    },
+    {
+        "label": "#api_key",
+        "kind": 5,
+        "importPath": "wk3.w3d4.pokemonapi",
+        "description": "wk3.w3d4.pokemonapi",
+        "peekOfCode": "#api_key = ''\n# api_call = f\"{base_url}?q={'charateristics'}\"\nprint(url)\nresponse = requests.get(url)\n# dir(response)\nprint(response.status_code)\n# response.url=\"https://pokeapi.co/docs/v2#characteristics\"\nresponse.json\nprint(response)",
+        "detail": "wk3.w3d4.pokemonapi",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "wk3.w3d4.pokemonapi",
+        "description": "wk3.w3d4.pokemonapi",
+        "peekOfCode": "response = requests.get(url)\n# dir(response)\nprint(response.status_code)\n# response.url=\"https://pokeapi.co/docs/v2#characteristics\"\nresponse.json\nprint(response)",
+        "detail": "wk3.w3d4.pokemonapi",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "wk3.w3day4.working_with_apis_17",
+        "description": "wk3.w3day4.working_with_apis_17",
+        "peekOfCode": "class Person:\n    def __init__(self,email,fname,lname,country,availability=[]):\n        self.email = email \n        self.fname = fname\n        self.lname = lname\n        self.country = country\n        self.availability = availability\n    def get_email(self):\n        email = f\"{self.email}\"\n        return email",
+        "detail": "wk3.w3day4.working_with_apis_17",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "wk3.w3day4.working_with_apis_17",
+        "description": "wk3.w3day4.working_with_apis_17",
+        "peekOfCode": "url = 'https://ct-mock-tech-assessment.herokuapp.com/'\nr = requests.get(url)\nprint(f\"Status code: {r.status_code}\")\n#\nresponse_dict = r.json()\nrepo_dicts = response_dict['partners']\nrepo_dict=repo_dicts[0]\nclass Person:\n    def __init__(self,email,fname,lname,country,availability=[]):\n        self.email = email ",
+        "detail": "wk3.w3day4.working_with_apis_17",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "wk3.w3day4.working_with_apis_17",
+        "description": "wk3.w3day4.working_with_apis_17",
+        "peekOfCode": "r = requests.get(url)\nprint(f\"Status code: {r.status_code}\")\n#\nresponse_dict = r.json()\nrepo_dicts = response_dict['partners']\nrepo_dict=repo_dicts[0]\nclass Person:\n    def __init__(self,email,fname,lname,country,availability=[]):\n        self.email = email \n        self.fname = fname",
+        "detail": "wk3.w3day4.working_with_apis_17",
+        "documentation": {}
+    },
+    {
+        "label": "response_dict",
+        "kind": 5,
+        "importPath": "wk3.w3day4.working_with_apis_17",
+        "description": "wk3.w3day4.working_with_apis_17",
+        "peekOfCode": "response_dict = r.json()\nrepo_dicts = response_dict['partners']\nrepo_dict=repo_dicts[0]\nclass Person:\n    def __init__(self,email,fname,lname,country,availability=[]):\n        self.email = email \n        self.fname = fname\n        self.lname = lname\n        self.country = country\n        self.availability = availability",
+        "detail": "wk3.w3day4.working_with_apis_17",
+        "documentation": {}
+    },
+    {
+        "label": "repo_dicts",
+        "kind": 5,
+        "importPath": "wk3.w3day4.working_with_apis_17",
+        "description": "wk3.w3day4.working_with_apis_17",
+        "peekOfCode": "repo_dicts = response_dict['partners']\nrepo_dict=repo_dicts[0]\nclass Person:\n    def __init__(self,email,fname,lname,country,availability=[]):\n        self.email = email \n        self.fname = fname\n        self.lname = lname\n        self.country = country\n        self.availability = availability\n    def get_email(self):",
+        "detail": "wk3.w3day4.working_with_apis_17",
+        "documentation": {}
+    },
+    {
+        "label": "meeting_dates",
+        "kind": 5,
+        "importPath": "wk3.w3day4.working_with_apis_17",
+        "description": "wk3.w3day4.working_with_apis_17",
+        "peekOfCode": "meeting_dates = []\nmeets=[]\na=[]\nmeetings = {}\nall_meetings = {}\nfor p in people:\n    for c in countries:\n        if p.country == c: \n            meetings[p.country]= meets\n            m = {   ",
+        "detail": "wk3.w3day4.working_with_apis_17",
+        "documentation": {}
+    },
+    {
+        "label": "meetings",
+        "kind": 5,
+        "importPath": "wk3.w3day4.working_with_apis_17",
+        "description": "wk3.w3day4.working_with_apis_17",
+        "peekOfCode": "meetings = {}\nall_meetings = {}\nfor p in people:\n    for c in countries:\n        if p.country == c: \n            meetings[p.country]= meets\n            m = {   \n                'email': p.email, \n                'fname': p.fname,\n                'lname': p.lname,",
+        "detail": "wk3.w3day4.working_with_apis_17",
+        "documentation": {}
+    },
+    {
+        "label": "all_meetings",
+        "kind": 5,
+        "importPath": "wk3.w3day4.working_with_apis_17",
+        "description": "wk3.w3day4.working_with_apis_17",
+        "peekOfCode": "all_meetings = {}\nfor p in people:\n    for c in countries:\n        if p.country == c: \n            meetings[p.country]= meets\n            m = {   \n                'email': p.email, \n                'fname': p.fname,\n                'lname': p.lname,\n                'availability': p.availability",
+        "detail": "wk3.w3day4.working_with_apis_17",
+        "documentation": {}
+    },
+    {
+        "label": "cleaned_dates",
+        "kind": 5,
+        "importPath": "wk3.w3day4.working_with_apis_17",
+        "description": "wk3.w3day4.working_with_apis_17",
+        "peekOfCode": "cleaned_dates = sorted(set(dates))\n# print(all_meetings)\nfor k, g in itertools.groupby(enumerate(cleaned_dates), lambda ix: ix[0] - ix[1]):\n    meeting_dates.append(list(map(itemgetter(1), g)))\nprint(meeting_dates)\n#####################################################################\n# print(len(meeting_dates))",
+        "detail": "wk3.w3day4.working_with_apis_17",
+        "documentation": {}
+    },
+    {
+        "label": "Node",
+        "kind": 6,
+        "importPath": "wk5.catchingup.Queues_and_TestingHW",
+        "description": "wk5.catchingup.Queues_and_TestingHW",
+        "peekOfCode": "class Node:\n    def __init__(self, element):\n        self.element = element                          \n        self.next = None                               \n        self.prev = None                                \nclass Queue:\n    def __init__(self):\n        self.frontofLine = None\n        self.last = None\n    def enqueue(self, element):",
+        "detail": "wk5.catchingup.Queues_and_TestingHW",
+        "documentation": {}
+    },
+    {
+        "label": "Queue",
+        "kind": 6,
+        "importPath": "wk5.catchingup.Queues_and_TestingHW",
+        "description": "wk5.catchingup.Queues_and_TestingHW",
+        "peekOfCode": "class Queue:\n    def __init__(self):\n        self.frontofLine = None\n        self.last = None\n    def enqueue(self, element):\n        if self.last is None:  \n            self.frontofLine = Node(element)\n            self.last = self.frontofLine  \n        else:\n            self.last.next = Node(element) ",
+        "detail": "wk5.catchingup.Queues_and_TestingHW",
+        "documentation": {}
+    },
+    {
+        "label": "Main",
+        "kind": 6,
+        "importPath": "wk5.catchingup.Queues_and_TestingHW",
+        "description": "wk5.catchingup.Queues_and_TestingHW",
+        "peekOfCode": "class Main:\n    def run(self):\n        queue = Queue()\n        decision = \"\"\n        while decision != \"quit\":\n            decision = input(\n                \"User, woule you like to enqueue, to dequeue or to see your queue? Type 'quit' to exit \").lower()\n            if decision == \"enqueue\":\n                queue.enqueue(input(\"Who would you like to add to the list \"))\n            elif decision == \"dequeue\":",
+        "detail": "wk5.catchingup.Queues_and_TestingHW",
+        "documentation": {}
+    },
+    {
+        "label": "Tests",
+        "kind": 6,
+        "importPath": "wk5.catchingup.Queues_and_TestingT",
+        "description": "wk5.catchingup.Queues_and_TestingT",
+        "peekOfCode": "class Tests(unittest.TestCase):\n    def test_inputting(self):\n        queue = Queue()\n        queue.enqueue(\"Enrique\")\n        printed = queue.printqueue()\n        self.assertEquals(\"People in your queue are:Enrique, \", printed)\n    def test_dequeing(self):\n        queue = Queue()\n        queue.enqueue(\"Enrique\")\n        queue.enqueue(\"Jorge\")",
+        "detail": "wk5.catchingup.Queues_and_TestingT",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "wk5.catchingup.SeleniumChallenge",
+        "description": "wk5.catchingup.SeleniumChallenge",
+        "peekOfCode": "username = \"username\"\npassword = \"password\"\n# initialize the Chrome driver\ndriver = webdriver.Chrome(\"chromedriver\")\n# head to login page\ndriver.get(\"https://modest-jennings-77f32e.netlify.app/login\")\n# find username/email field and send the username itself to the input field\ndriver.find_element_by_id(\"login_field\").send_keys(username)\n# find password input field and insert password as well\ndriver.find_element_by_id(\"password\").send_keys(password)",
+        "detail": "wk5.catchingup.SeleniumChallenge",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "wk5.catchingup.SeleniumChallenge",
+        "description": "wk5.catchingup.SeleniumChallenge",
+        "peekOfCode": "password = \"password\"\n# initialize the Chrome driver\ndriver = webdriver.Chrome(\"chromedriver\")\n# head to login page\ndriver.get(\"https://modest-jennings-77f32e.netlify.app/login\")\n# find username/email field and send the username itself to the input field\ndriver.find_element_by_id(\"login_field\").send_keys(username)\n# find password input field and insert password as well\ndriver.find_element_by_id(\"password\").send_keys(password)\n# click login button",
+        "detail": "wk5.catchingup.SeleniumChallenge",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "wk5.catchingup.SeleniumChallenge",
+        "description": "wk5.catchingup.SeleniumChallenge",
+        "peekOfCode": "driver = webdriver.Chrome(\"chromedriver\")\n# head to login page\ndriver.get(\"https://modest-jennings-77f32e.netlify.app/login\")\n# find username/email field and send the username itself to the input field\ndriver.find_element_by_id(\"login_field\").send_keys(username)\n# find password input field and insert password as well\ndriver.find_element_by_id(\"password\").send_keys(password)\n# click login button\ndriver.find_element_by_name(\"commit\").click()",
+        "detail": "wk5.catchingup.SeleniumChallenge",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "wk5.catchingup.hwregex",
+        "description": "wk5.catchingup.hwregex",
+        "peekOfCode": "file = open('./names.txt', encoding='utf-8')\ndata = file.read()\nseparated_string = data.splitlines()\nfor files in separated_string:\n    name = re.search('.+?(?=\\t)', files)\n    name = re.search('.+?(?=\\t)', files)\n    list = {}\n    if name:\n        list[\"Name\"] = (name.group())\n    job = re.findall('/\\t[\\s\\S]*/', files)",
+        "detail": "wk5.catchingup.hwregex",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "wk5.catchingup.hwregex",
+        "description": "wk5.catchingup.hwregex",
+        "peekOfCode": "data = file.read()\nseparated_string = data.splitlines()\nfor files in separated_string:\n    name = re.search('.+?(?=\\t)', files)\n    name = re.search('.+?(?=\\t)', files)\n    list = {}\n    if name:\n        list[\"Name\"] = (name.group())\n    job = re.findall('/\\t[\\s\\S]*/', files)\n    if job:",
+        "detail": "wk5.catchingup.hwregex",
+        "documentation": {}
+    },
+    {
+        "label": "separated_string",
+        "kind": 5,
+        "importPath": "wk5.catchingup.hwregex",
+        "description": "wk5.catchingup.hwregex",
+        "peekOfCode": "separated_string = data.splitlines()\nfor files in separated_string:\n    name = re.search('.+?(?=\\t)', files)\n    name = re.search('.+?(?=\\t)', files)\n    list = {}\n    if name:\n        list[\"Name\"] = (name.group())\n    job = re.findall('/\\t[\\s\\S]*/', files)\n    if job:\n      list[\"Job\"] = (job[0])",
+        "detail": "wk5.catchingup.hwregex",
+        "documentation": {}
+    },
+    {
+        "label": "Card",
+        "kind": 6,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "class Card:\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\n    def __str__(self):\n        return self.rank + ' of ' + self.suit\nclass Deck:\n    def __init__(self):\n        self.deck = []  \n        for suit in suits:",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "Deck",
+        "kind": 6,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "class Deck:\n    def __init__(self):\n        self.deck = []  \n        for suit in suits:\n            for rank in ranks:\n                self.deck.append(Card(suit, rank))\n    def __str__(self):\n        deck_comp = '' \n        for card in self.deck:\n            deck_comp += '\\n' + card.__str__() ",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "Hand",
+        "kind": 6,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "class Hand:\n    def __init__(self):\n        self.cards = []  \n        self.value = 0   \n        self.aces = 0    \n    def add_card(self,card):\n        self.cards.append(card)\n        self.value += values[card.rank]\n        if card.rank == 'Ace':\n            self.aces += 1",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "Chips",
+        "kind": 6,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "class Chips:\n    def __init__(self):\n        self.total = 100  \n        self.bet = 0\n    def win_bet(self):\n        self.total += self.bet\n    def lose_bet(self):\n        self.total -+ self.bet\ndef take_bet(chips):\n    while True:",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "take_bet",
+        "kind": 2,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "def take_bet(chips):\n    while True:\n        try:\n            chips.bet = int(input('How many chips would you liek to bet?  '))\n        except ValueError:\n            print(\"Sorry, a bet must be an integer!\")\n        else:\n            if chips.bet > chips.total:\n                print('Sorry, your bet cannot exceed {} '.format(chips.total))\n            else:",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "hit",
+        "kind": 2,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "def hit(deck,hand):\n    hand.add_card(deck.deal())\n    hand.adjust_for_ace()\ndef hit_or_stand(deck,hand):\n    global playing\n    while True:\n        x = input(\"Would you like to Hit or Stand? Enter 'h' or 's'\")\n        if x[0].lower() == 'h':\n            hit(deck,hand)  \n        elif x[0].lower() == 's':",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "hit_or_stand",
+        "kind": 2,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "def hit_or_stand(deck,hand):\n    global playing\n    while True:\n        x = input(\"Would you like to Hit or Stand? Enter 'h' or 's'\")\n        if x[0].lower() == 'h':\n            hit(deck,hand)  \n        elif x[0].lower() == 's':\n            print(\"Player stands. Dealer is playing.\")\n            playing = False\n        else:",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "show_some",
+        "kind": 2,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "def show_some(player,dealer):\n    print(\"\\nDealer's Hand\")\n    print(\"<card hidden>\")\n    print(' ', dealer.cards[1])\n    print(\"\\nPlayer's Hand: \", *player.cards, sep= '\\n')\ndef show_all(player,dealer):\n    print(\"\\nDealer's Hand:\", *dealer.cards, sep=\"\\n\")\n    print(\"Dealer's Hand =\",dealer.value)\n    print(\"\\nPlayer's Hand: \", *player.cards, sep= '\\n')\n    print(\"Player's Hand = \", player.value)",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "show_all",
+        "kind": 2,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "def show_all(player,dealer):\n    print(\"\\nDealer's Hand:\", *dealer.cards, sep=\"\\n\")\n    print(\"Dealer's Hand =\",dealer.value)\n    print(\"\\nPlayer's Hand: \", *player.cards, sep= '\\n')\n    print(\"Player's Hand = \", player.value)\ndef player_busts(player,dealer,chips):\n    print(\"Player busts!\")\n    chips.lose_bet()\ndef player_wins(player,dealer,chips):\n    print(\"Player wins!\")",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "player_busts",
+        "kind": 2,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "def player_busts(player,dealer,chips):\n    print(\"Player busts!\")\n    chips.lose_bet()\ndef player_wins(player,dealer,chips):\n    print(\"Player wins!\")\n    chips.win_bet()\ndef dealer_busts(player,dealer,chips):\n    print(\"Dealer busts!\")\n    chips.win_bet()\ndef dealer_wins(player,dealer,chips):",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "player_wins",
+        "kind": 2,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "def player_wins(player,dealer,chips):\n    print(\"Player wins!\")\n    chips.win_bet()\ndef dealer_busts(player,dealer,chips):\n    print(\"Dealer busts!\")\n    chips.win_bet()\ndef dealer_wins(player,dealer,chips):\n    print(\"Dealer wins!\")\n    chips.lose_bet()\ndef push(player,dealer):",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "dealer_busts",
+        "kind": 2,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "def dealer_busts(player,dealer,chips):\n    print(\"Dealer busts!\")\n    chips.win_bet()\ndef dealer_wins(player,dealer,chips):\n    print(\"Dealer wins!\")\n    chips.lose_bet()\ndef push(player,dealer):\n    print(\"Dealer and Player tie! It's a push.\")    \nwhile True:\n    print(\"Welcome to my kickass Blackjack game.\")",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "dealer_wins",
+        "kind": 2,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "def dealer_wins(player,dealer,chips):\n    print(\"Dealer wins!\")\n    chips.lose_bet()\ndef push(player,dealer):\n    print(\"Dealer and Player tie! It's a push.\")    \nwhile True:\n    print(\"Welcome to my kickass Blackjack game.\")\n    deck = Deck()\n    deck.shuffle()\n    player_hand = Hand()",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "push",
+        "kind": 2,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "def push(player,dealer):\n    print(\"Dealer and Player tie! It's a push.\")    \nwhile True:\n    print(\"Welcome to my kickass Blackjack game.\")\n    deck = Deck()\n    deck.shuffle()\n    player_hand = Hand()\n    player_hand.add_card(deck.deal())\n    player_hand.add_card(deck.deal())\n    dealer_hand = Hand()",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "suits",
+        "kind": 5,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "suits = ('Hearts', 'Diamonds', 'Spades', 'Clubs')\nranks = ('Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Jack', 'Queen', 'King', 'Ace')\nvalues = {'Two':2, 'Three':3, 'Four':4, 'Five':5, 'Six':6, 'Seven':7, 'Eight':8, 'Nine':9, 'Ten':10, 'Jack':10,\n         'Queen':10, 'King':10, 'Ace':11}\nplaying = True\nclass Card:\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\n    def __str__(self):",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "ranks",
+        "kind": 5,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "ranks = ('Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Jack', 'Queen', 'King', 'Ace')\nvalues = {'Two':2, 'Three':3, 'Four':4, 'Five':5, 'Six':6, 'Seven':7, 'Eight':8, 'Nine':9, 'Ten':10, 'Jack':10,\n         'Queen':10, 'King':10, 'Ace':11}\nplaying = True\nclass Card:\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\n    def __str__(self):\n        return self.rank + ' of ' + self.suit",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "values = {'Two':2, 'Three':3, 'Four':4, 'Five':5, 'Six':6, 'Seven':7, 'Eight':8, 'Nine':9, 'Ten':10, 'Jack':10,\n         'Queen':10, 'King':10, 'Ace':11}\nplaying = True\nclass Card:\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\n    def __str__(self):\n        return self.rank + ' of ' + self.suit\nclass Deck:",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "playing",
+        "kind": 5,
+        "importPath": "wk5.blackjackadd",
+        "description": "wk5.blackjackadd",
+        "peekOfCode": "playing = True\nclass Card:\n    def __init__(self, suit, rank):\n        self.suit = suit\n        self.rank = rank\n    def __str__(self):\n        return self.rank + ' of ' + self.suit\nclass Deck:\n    def __init__(self):\n        self.deck = []  ",
+        "detail": "wk5.blackjackadd",
+        "documentation": {}
+    },
+    {
+        "label": "room_counts",
+        "kind": 5,
+        "importPath": "wk5.module",
+        "description": "wk5.module",
+        "peekOfCode": "room_counts = int(input('How many rooms does the floor have?'))\ntotal=0\nfor i in range(room_counts):\n    length=float(input('room #%s length?'%(i+1)))\n    width=float(input('room #%s width?'%(i+1)))\n    total +=length*width\nprint ('total is ',total)\n#question2\nradius = float(input(\"Enter the radius of the circle : \"))\ncircumference = 2 * math.pi * radius",
+        "detail": "wk5.module",
+        "documentation": {}
+    },
+    {
+        "label": "radius",
+        "kind": 5,
+        "importPath": "wk5.module",
+        "description": "wk5.module",
+        "peekOfCode": "radius = float(input(\"Enter the radius of the circle : \"))\ncircumference = 2 * math.pi * radius\nprint(\"Circumference of the circle is : %.2f\" % circumference)",
+        "detail": "wk5.module",
+        "documentation": {}
+    },
+    {
+        "label": "circumference",
+        "kind": 5,
+        "importPath": "wk5.module",
+        "description": "wk5.module",
+        "peekOfCode": "circumference = 2 * math.pi * radius\nprint(\"Circumference of the circle is : %.2f\" % circumference)",
+        "detail": "wk5.module",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.models",
+        "description": "wk6.fakebook-march.app.blueprints.blog.models",
+        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.String(32), primary_key=True)\n    first_name = db.Column(db.String(50))\n    last_name = db.Column(db.String(50))\n    email = db.Column(db.String(50), unique=True)\n    password = db.Column(db.String(300))\n    posts = db.relationship('Post', backref='posts', cascade='all, delete-orphan')\n    followed = db.relationship(\n        'User', \n        secondary = followers,",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.models",
+        "description": "wk6.fakebook-march.app.blueprints.blog.models",
+        "peekOfCode": "class Post(db.Model):\n    id = db.Column(db.String(32), primary_key=True)\n    body = db.Column(db.Text)\n    date_created = db.Column(db.DateTime, default=dt.utcnow)\n    author = db.Column(db.ForeignKey('user.id'))\n    def to_dict(self):\n        return {\n            'id': self.id,\n            'body': self.body,\n            'date_created': self.date_created,",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_user",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.models",
+        "description": "wk6.fakebook-march.app.blueprints.blog.models",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(user_id)\n# ID10T",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "followers",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.models",
+        "description": "wk6.fakebook-march.app.blueprints.blog.models",
+        "peekOfCode": "followers = db.Table(\n    'followers',\n    db.Column('follower_id', db.String(32), db.ForeignKey('user.id')),\n    db.Column('followed_id', db.String(32), db.ForeignKey('user.id'))\n)\nclass User(db.Model, UserMixin):\n    id = db.Column(db.String(32), primary_key=True)\n    first_name = db.Column(db.String(50))\n    last_name = db.Column(db.String(50))\n    email = db.Column(db.String(50), unique=True)",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "user_list",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "description": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "peekOfCode": "def user_list():\n    return render_template('users/list.html', users=[user for user in User.query.all() if user != current_user])\n@app.route('/users/<int:id>')\ndef user_single(id):\n    return 'User Single Page'\n@app.route('/users/unfollow/<user_id>')\ndef unfollow(user_id):\n    user_to_unfollow = User.query.get(user_id)\n    current_user.unfollow(user_to_unfollow)\n    db.session.commit()",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "documentation": {}
+    },
+    {
+        "label": "user_single",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "description": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "peekOfCode": "def user_single(id):\n    return 'User Single Page'\n@app.route('/users/unfollow/<user_id>')\ndef unfollow(user_id):\n    user_to_unfollow = User.query.get(user_id)\n    current_user.unfollow(user_to_unfollow)\n    db.session.commit()\n    flash(f'You have unfollowed {user_to_unfollow.first_name} {user_to_unfollow.last_name}', 'primary')\n    return redirect(url_for('user_list'))\n@app.route('/users/follow/<user_id>')",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "documentation": {}
+    },
+    {
+        "label": "unfollow",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "description": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "peekOfCode": "def unfollow(user_id):\n    user_to_unfollow = User.query.get(user_id)\n    current_user.unfollow(user_to_unfollow)\n    db.session.commit()\n    flash(f'You have unfollowed {user_to_unfollow.first_name} {user_to_unfollow.last_name}', 'primary')\n    return redirect(url_for('user_list'))\n@app.route('/users/follow/<user_id>')\ndef follow(user_id):\n    user_to_follow = User.query.get(user_id)\n    current_user.follow(user_to_follow)",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "documentation": {}
+    },
+    {
+        "label": "follow",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "description": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "peekOfCode": "def follow(user_id):\n    user_to_follow = User.query.get(user_id)\n    current_user.follow(user_to_follow)\n    db.session.commit()\n    flash(f'You have followed {user_to_follow.first_name} {user_to_follow.last_name}', 'primary')\n    return redirect(url_for('user_list'))\n# a => t45dr\n# b => bdkzs\n# c => gszdgl\n# 1 => tesrg",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "description": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "peekOfCode": "def login():\n    if request.method == 'POST':\n        form_data = request.form\n        # cross-reference email address with our database to determine if it's found\n        user = User.query.filter_by(email=form_data.get('email')).first()\n        # check email and password's vailidity\n        if user is None or not user.check_password(form_data.get('password')):\n            flash('Either that email address or password is incorrect. Please try again.', 'warning')\n            return redirect(url_for('login'))\n        # log the user in",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "description": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "peekOfCode": "def register():\n    if request.method == 'POST':\n        form_data = request.form\n        email = User.query.filter_by(email=form_data.get('email')).first()\n        if email is not None:\n            flash('That email address is already in use. Please try another one.', 'warning')\n            return(redirect(url_for('register')))\n        if form_data.get('password') == form_data.get('confirm_password'):\n            # create new user\n            user = User(",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "description": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "peekOfCode": "def logout():\n    logout_user()\n    flash('You have logged out successfully', 'primary')\n    return redirect(url_for('login'))\n@app.route('/blog/update', methods=['POST'])\n@login_required\ndef blog_profile():\n    if request.method == 'POST':\n        data = request.form.get('blog_post')\n        p = Post(body=data, author=current_user.get_id())",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "documentation": {}
+    },
+    {
+        "label": "blog_profile",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "description": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "peekOfCode": "def blog_profile():\n    if request.method == 'POST':\n        data = request.form.get('blog_post')\n        p = Post(body=data, author=current_user.get_id())\n        db.session.add(p)\n        db.session.commit()\n        flash('You have created a new post', 'info')\n        return redirect(url_for('profile'))",
+        "detail": "wk6.fakebook-march.app.blueprints.blog.routes",
+        "documentation": {}
+    },
+    {
+        "label": "not_found_error",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.main.errors",
+        "description": "wk6.fakebook-march.app.blueprints.main.errors",
+        "peekOfCode": "def not_found_error(error):\n    return \"That resource cannot be found on our servers\"\n# INTERNAL SERVER ERROR\n@app.errorhandler(500)\ndef intrenal_server_error(error):\n    return \"There was an error with the server. Please contact the system administrator for assistance\"",
+        "detail": "wk6.fakebook-march.app.blueprints.main.errors",
+        "documentation": {}
+    },
+    {
+        "label": "intrenal_server_error",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.main.errors",
+        "description": "wk6.fakebook-march.app.blueprints.main.errors",
+        "peekOfCode": "def intrenal_server_error(error):\n    return \"There was an error with the server. Please contact the system administrator for assistance\"",
+        "detail": "wk6.fakebook-march.app.blueprints.main.errors",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.main.routes",
+        "description": "wk6.fakebook-march.app.blueprints.main.routes",
+        "peekOfCode": "def home():\n    # if current_user.is_authenticated:\n    #     print(current_user.is_authenticated)\n    #     print(current_user.is_anonymous)\n    #     print(current_user.is_active)\n    #     print(current_user.get_id())\n    # control what happens on a form submission/POST request\n    if request.method == 'POST':\n        # grab form data\n        data = request.form.get('blog_post')",
+        "detail": "wk6.fakebook-march.app.blueprints.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.main.routes",
+        "description": "wk6.fakebook-march.app.blueprints.main.routes",
+        "peekOfCode": "def profile():\n    if request.method == 'POST':\n        form_data = request.form\n        # update the user's information\n        user = User.query.get(current_user.get_id())\n        # if the user wants to change their password\n        # check if the (confirm) password fields are the same\n        user.first_name = form_data.get('first_name')\n        user.last_name = form_data.get('last_name')\n        user.email = form_data.get('email')",
+        "detail": "wk6.fakebook-march.app.blueprints.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "contact",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.main.routes",
+        "description": "wk6.fakebook-march.app.blueprints.main.routes",
+        "peekOfCode": "def contact():\n    if request.method == 'POST':\n        form_data = request.form\n        msg = Message(\n            subject='[Fakebook March] Contact form inquiry',\n            recipients=[app.config.get('MAIL_RECIPIENT')],\n            sender=app.config.get('MAIL_RECIPIENT'),\n            # body=render_template('email/message.txt', data=form_data),\n            html=render_template('email/message.html', data=form_data),\n            reply_to=form_data.get('email'),",
+        "detail": "wk6.fakebook-march.app.blueprints.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "mailchimp",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.main.routes",
+        "description": "wk6.fakebook-march.app.blueprints.main.routes",
+        "peekOfCode": "def mailchimp():\n    form_data = request.form\n    client = MailchimpMarketing.Client()\n    client.set_config({\n        \"api_key\": app.config.get('MAILCHIMP_API_KEY'),\n        \"server\": app.config.get('MAILCHIMP_URL')\n    })\n    try:\n        response = client.lists.add_list_member(app.config.get('MAILCHIMP_MAILING_LIST_ID'), {\"email_address\": form_data.get('newsletter'), \"status\": \"subscribed\"})\n        # print(response)",
+        "detail": "wk6.fakebook-march.app.blueprints.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "Cart",
+        "kind": 6,
+        "importPath": "wk6.fakebook-march.app.blueprints.shop.models",
+        "description": "wk6.fakebook-march.app.blueprints.shop.models",
+        "peekOfCode": "class Cart(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    product_id = db.Column(db.String, nullable=False)\n    user_id = db.Column(db.ForeignKey('user.id'), nullable=False)\n    quantity = db.Column(db.Integer)\n    def __repr__(self):\n        return f'<Cart: {self.product_id} => {self.user_id}>'",
+        "detail": "wk6.fakebook-march.app.blueprints.shop.models",
+        "documentation": {}
+    },
+    {
+        "label": "shop_list",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "description": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "peekOfCode": "def shop_list():\n    products = []\n    for product in stripe.Product.list()['data']:\n        price = stripe.Price.retrieve(product['default_price'])['unit_amount'] / 100\n        product_dict = {\n            'id': product['id'],\n            'name': product['name'],\n            'description': product['description'],\n            'price': f\"{price:,.2f}\",\n            'image': product['images'][0],",
+        "detail": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "documentation": {}
+    },
+    {
+        "label": "shop_single",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "description": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "peekOfCode": "def shop_single(id):\n    return 'Shop Single Page'\n@app.route('/shop/cart')\n@login_required\ndef shop_cart():\n    cart_items = []\n    for item in Cart.query.filter_by(user_id=current_user.get_id()).all():\n        stripe_product = stripe.Product.retrieve(item.product_id)\n        price = stripe.Price.retrieve(stripe_product['default_price'])['unit_amount'] / 100\n        product_dict = {",
+        "detail": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "documentation": {}
+    },
+    {
+        "label": "shop_cart",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "description": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "peekOfCode": "def shop_cart():\n    cart_items = []\n    for item in Cart.query.filter_by(user_id=current_user.get_id()).all():\n        stripe_product = stripe.Product.retrieve(item.product_id)\n        price = stripe.Price.retrieve(stripe_product['default_price'])['unit_amount'] / 100\n        product_dict = {\n            'info': stripe_product,\n            'price': f\"{price:,.2f}\",\n            'quantity': item.quantity\n        }",
+        "detail": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "documentation": {}
+    },
+    {
+        "label": "shop_cart_add",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "description": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "peekOfCode": "def shop_cart_add(product_id):\n    user_cart = Cart.query.filter_by(user_id=current_user.get_id())\n    cart_product = user_cart.filter_by(product_id=product_id).first()\n    # if user doesn't already have a cart\n    if cart_product is None:\n        # create their cart\n        cart = Cart(\n            product_id=product_id, \n            user_id=current_user.get_id(),\n            quantity=1 ",
+        "detail": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "documentation": {}
+    },
+    {
+        "label": "shop_cart_delete",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "description": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "peekOfCode": "def shop_cart_delete(product_id):\n    # get user's cart\n    user_cart = Cart.query.filter_by(user_id=current_user.get_id())\n    try:\n        # find product to delete\n        product_to_delete = user_cart.filter_by(product_id=product_id).first()\n        db.session.delete(product_to_delete)\n        db.session.commit()\n        flash('Product removed from cart.', 'success')\n    except Exception as err:",
+        "detail": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "documentation": {}
+    },
+    {
+        "label": "shop_checkout",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "description": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "peekOfCode": "def shop_checkout():\n    items = []\n    user_cart = Cart.query.filter_by(user_id=current_user.get_id()).all()\n    for item in user_cart:\n        stripe_product = stripe.Product.retrieve(item.product_id)\n        product_dict = {\n            'price': stripe_product['default_price'],\n            'quantity': item.quantity\n        }\n        items.append(product_dict)",
+        "detail": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "documentation": {}
+    },
+    {
+        "label": "stripe.api_key",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "description": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "peekOfCode": "stripe.api_key = app.config.get('STRIPE_SK')\n# SHOP ROUTES\n@app.route('/shop')\n@login_required\ndef shop_list():\n    products = []\n    for product in stripe.Product.list()['data']:\n        price = stripe.Price.retrieve(product['default_price'])['unit_amount'] / 100\n        product_dict = {\n            'id': product['id'],",
+        "detail": "wk6.fakebook-march.app.blueprints.shop.routes",
+        "documentation": {}
+    },
+    {
+        "label": "cart_context",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.app.contexts.cart",
+        "description": "wk6.fakebook-march.app.contexts.cart",
+        "peekOfCode": "def cart_context():\n    cart_dict = {}\n    # if a user is not logged, this is gonna be their default.\n    if current_user.is_anonymous:\n        return {\n            'cart_items': cart_dict,\n            'cart_size': 0,\n            'cart_subtotal': 0,\n            'cart_grandtotal': 0,\n        }",
+        "detail": "wk6.fakebook-march.app.contexts.cart",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "description": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('cart', sa.Column('product_id', sa.String(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('cart', 'product_id')\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "description": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('cart', 'product_id')\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "description": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "peekOfCode": "revision = '39e272caeec6'\ndown_revision = 'e54e039df918'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('cart', sa.Column('product_id', sa.String(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "description": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "peekOfCode": "down_revision = 'e54e039df918'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('cart', sa.Column('product_id', sa.String(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('cart', 'product_id')",
+        "detail": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "description": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('cart', sa.Column('product_id', sa.String(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('cart', 'product_id')\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "description": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('cart', sa.Column('product_id', sa.String(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('cart', 'product_id')\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.39e272caeec6_changed_cart_product_id_datatype",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "description": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.String(length=32), nullable=False),\n    sa.Column('first_name', sa.String(length=50), nullable=True),\n    sa.Column('last_name', sa.String(length=50), nullable=True),\n    sa.Column('email', sa.String(length=50), nullable=True),\n    sa.Column('password', sa.String(length=300), nullable=True),\n    sa.PrimaryKeyConstraint('id'),\n    sa.UniqueConstraint('email')",
+        "detail": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "description": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('post')\n    op.drop_table('user')\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "description": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "peekOfCode": "revision = '73c1f7abc737'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.String(length=32), nullable=False),\n    sa.Column('first_name', sa.String(length=50), nullable=True),\n    sa.Column('last_name', sa.String(length=50), nullable=True),",
+        "detail": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "description": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.String(length=32), nullable=False),\n    sa.Column('first_name', sa.String(length=50), nullable=True),\n    sa.Column('last_name', sa.String(length=50), nullable=True),\n    sa.Column('email', sa.String(length=50), nullable=True),",
+        "detail": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "description": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.String(length=32), nullable=False),\n    sa.Column('first_name', sa.String(length=50), nullable=True),\n    sa.Column('last_name', sa.String(length=50), nullable=True),\n    sa.Column('email', sa.String(length=50), nullable=True),\n    sa.Column('password', sa.String(length=300), nullable=True),",
+        "detail": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "description": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.String(length=32), nullable=False),\n    sa.Column('first_name', sa.String(length=50), nullable=True),\n    sa.Column('last_name', sa.String(length=50), nullable=True),\n    sa.Column('email', sa.String(length=50), nullable=True),\n    sa.Column('password', sa.String(length=300), nullable=True),\n    sa.PrimaryKeyConstraint('id'),",
+        "detail": "wk6.fakebook-march.migrations.versions.73c1f7abc737_initialized_new_database",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "description": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('cart',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('product_id', sa.Integer(), nullable=False),\n    sa.Column('user_id', sa.String(length=32), nullable=False),\n    sa.Column('quantity', sa.Integer(), nullable=True),\n    sa.ForeignKeyConstraint(['user_id'], ['user.id'], ),\n    sa.PrimaryKeyConstraint('id')\n    )",
+        "detail": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "description": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('cart')\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "description": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "peekOfCode": "revision = '7d186ac9dfd0'\ndown_revision = 'd95a4c3feb16'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('cart',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('product_id', sa.Integer(), nullable=False),\n    sa.Column('user_id', sa.String(length=32), nullable=False),",
+        "detail": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "description": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "peekOfCode": "down_revision = 'd95a4c3feb16'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('cart',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('product_id', sa.Integer(), nullable=False),\n    sa.Column('user_id', sa.String(length=32), nullable=False),\n    sa.Column('quantity', sa.Integer(), nullable=True),",
+        "detail": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "description": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('cart',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('product_id', sa.Integer(), nullable=False),\n    sa.Column('user_id', sa.String(length=32), nullable=False),\n    sa.Column('quantity', sa.Integer(), nullable=True),\n    sa.ForeignKeyConstraint(['user_id'], ['user.id'], ),",
+        "detail": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "description": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('cart',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('product_id', sa.Integer(), nullable=False),\n    sa.Column('user_id', sa.String(length=32), nullable=False),\n    sa.Column('quantity', sa.Integer(), nullable=True),\n    sa.ForeignKeyConstraint(['user_id'], ['user.id'], ),\n    sa.PrimaryKeyConstraint('id')",
+        "detail": "wk6.fakebook-march.migrations.versions.7d186ac9dfd0_added_cart_model",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "description": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('followers',\n    sa.Column('follower_id', sa.String(length=32), nullable=True),\n    sa.Column('followed_id', sa.String(length=32), nullable=True),\n    sa.ForeignKeyConstraint(['followed_id'], ['user.id'], ),\n    sa.ForeignKeyConstraint(['follower_id'], ['user.id'], )\n    )\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "description": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('followers')\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "description": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "peekOfCode": "revision = 'd95a4c3feb16'\ndown_revision = '73c1f7abc737'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('followers',\n    sa.Column('follower_id', sa.String(length=32), nullable=True),\n    sa.Column('followed_id', sa.String(length=32), nullable=True),\n    sa.ForeignKeyConstraint(['followed_id'], ['user.id'], ),",
+        "detail": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "description": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "peekOfCode": "down_revision = '73c1f7abc737'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('followers',\n    sa.Column('follower_id', sa.String(length=32), nullable=True),\n    sa.Column('followed_id', sa.String(length=32), nullable=True),\n    sa.ForeignKeyConstraint(['followed_id'], ['user.id'], ),\n    sa.ForeignKeyConstraint(['follower_id'], ['user.id'], )",
+        "detail": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "description": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('followers',\n    sa.Column('follower_id', sa.String(length=32), nullable=True),\n    sa.Column('followed_id', sa.String(length=32), nullable=True),\n    sa.ForeignKeyConstraint(['followed_id'], ['user.id'], ),\n    sa.ForeignKeyConstraint(['follower_id'], ['user.id'], )\n    )",
+        "detail": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "description": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('followers',\n    sa.Column('follower_id', sa.String(length=32), nullable=True),\n    sa.Column('followed_id', sa.String(length=32), nullable=True),\n    sa.ForeignKeyConstraint(['followed_id'], ['user.id'], ),\n    sa.ForeignKeyConstraint(['follower_id'], ['user.id'], )\n    )\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.d95a4c3feb16_added_followers_table",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "description": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('cart', 'product_id')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('cart', sa.Column('product_id', sa.INTEGER(), autoincrement=False, nullable=False))\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "description": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('cart', sa.Column('product_id', sa.INTEGER(), autoincrement=False, nullable=False))\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "description": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "peekOfCode": "revision = 'e54e039df918'\ndown_revision = '7d186ac9dfd0'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('cart', 'product_id')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "description": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "peekOfCode": "down_revision = '7d186ac9dfd0'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('cart', 'product_id')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('cart', sa.Column('product_id', sa.INTEGER(), autoincrement=False, nullable=False))",
+        "detail": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "description": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('cart', 'product_id')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('cart', sa.Column('product_id', sa.INTEGER(), autoincrement=False, nullable=False))\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "description": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('cart', 'product_id')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('cart', sa.Column('product_id', sa.INTEGER(), autoincrement=False, nullable=False))\n    # ### end Alembic commands ###",
+        "detail": "wk6.fakebook-march.migrations.versions.e54e039df918_",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.env",
+        "description": "wk6.fakebook-march.migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "wk6.fakebook-march.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.migrations.env",
+        "description": "wk6.fakebook-march.migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "wk6.fakebook-march.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.env",
+        "description": "wk6.fakebook-march.migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nconfig.set_main_option(",
+        "detail": "wk6.fakebook-march.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.env",
+        "description": "wk6.fakebook-march.migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nconfig.set_main_option(\n    'sqlalchemy.url',\n    str(current_app.extensions['migrate'].db.get_engine().url).replace(\n        '%', '%%'))\ntarget_metadata = current_app.extensions['migrate'].db.metadata",
+        "detail": "wk6.fakebook-march.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.migrations.env",
+        "description": "wk6.fakebook-march.migrations.env",
+        "peekOfCode": "target_metadata = current_app.extensions['migrate'].db.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "wk6.fakebook-march.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "wk6.fakebook-march.config",
+        "description": "wk6.fakebook-march.config",
+        "peekOfCode": "class Config:\n    FLASK_APP = os.getenv('FLASK_APP')\n    FLASK_ENV = os.getenv('FLASK_ENV')\n    if os.getenv('SQLALCHEMY_DATABASE_URI').startswith('postgres'):\n        SQLALCHEMY_DATABASE_URI = os.getenv('SQLALCHEMY_DATABASE_URI').replace('postgres', 'postgresql')\n    SQLALCHEMY_TRACK_MODIFICATIONS = os.getenv('SQLALCHEMY_TRACK_MODIFICATIONS')\n    SECRET_KEY = os.getenv('SECRET_KEY')\n    MAIL_SERVER = os.getenv('MAIL_SERVER')\n    MAIL_PORT = os.getenv('MAIL_PORT')\n    MAIL_USE_TLS = os.getenv('MAIL_USE_TLS')",
+        "detail": "wk6.fakebook-march.config",
+        "documentation": {}
+    },
+    {
+        "label": "basedir",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.config",
+        "description": "wk6.fakebook-march.config",
+        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__name__))\nload_dotenv(os.path.join(basedir, '.env'))\nclass Config:\n    FLASK_APP = os.getenv('FLASK_APP')\n    FLASK_ENV = os.getenv('FLASK_ENV')\n    if os.getenv('SQLALCHEMY_DATABASE_URI').startswith('postgres'):\n        SQLALCHEMY_DATABASE_URI = os.getenv('SQLALCHEMY_DATABASE_URI').replace('postgres', 'postgresql')\n    SQLALCHEMY_TRACK_MODIFICATIONS = os.getenv('SQLALCHEMY_TRACK_MODIFICATIONS')\n    SECRET_KEY = os.getenv('SECRET_KEY')\n    MAIL_SERVER = os.getenv('MAIL_SERVER')",
+        "detail": "wk6.fakebook-march.config",
+        "documentation": {}
+    },
+    {
+        "label": "make_context",
+        "kind": 2,
+        "importPath": "wk6.fakebook-march.run",
+        "description": "wk6.fakebook-march.run",
+        "peekOfCode": "def make_context():\n    return {\n        'db': db,\n        'User': User,\n        'Post': Post\n    }",
+        "detail": "wk6.fakebook-march.run",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "wk6.fakebook-march.run",
+        "description": "wk6.fakebook-march.run",
+        "peekOfCode": "app = create_app()\nfrom app.blueprints.blog.models import Post, User\n@app.shell_context_processor\ndef make_context():\n    return {\n        'db': db,\n        'User': User,\n        'Post': Post\n    }",
+        "detail": "wk6.fakebook-march.run",
         "documentation": {}
     }
 ]
